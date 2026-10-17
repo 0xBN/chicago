@@ -16,8 +16,13 @@ Then visit `http://localhost:8765/`.
 
 ## Data
 
-- `data/itinerary.json` — stops, times, notes, OHC site URLs.
-- Checkmarks: `localStorage` keys `ohc26:<site name>` (per browser; no sync).
+- `data/itinerary.json` — stops, per-day backup cards, coords, OHC site URLs.
+- **localStorage** (this browser only):
+  - `ohc26:<site name>` — visited (`1` / `0`)
+  - `ohc26:day` — last tab (`sat` / `sun`)
+  - `ohc26:theme` — `system` (default) | `light` | `dark`
+  - `ohc26:includeVisited` — nearby list includes visited sites when `1`
+- Geolocation is not persisted; only used in-memory for distance + nearby ranking.
 
 ## Deploy
 

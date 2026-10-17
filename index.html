@@ -3,19 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#0c1725" />
+    <meta name="theme-color" content="#0c1725" id="themeColorMeta" />
+    <meta name="color-scheme" content="dark light" />
     <title>Open House Chicago · Weekend Game Plan</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main>
       <header>
-        <div class="eyebrow">Free things · Fast walking · Rare access</div>
-        <h1>Chicago, unlocked.</h1>
+        <div class="header-row">
+          <div>
+            <div class="eyebrow">Free things · Fast walking · Rare access</div>
+            <h1>Chicago, unlocked.</h1>
+          </div>
+          <div
+            class="theme-picker"
+            role="group"
+            aria-label="Color theme"
+            id="themePicker"
+          >
+            <button type="button" data-theme="system" title="Match system">Auto</button>
+            <button type="button" data-theme="light" title="Light">Light</button>
+            <button type="button" data-theme="dark" title="Dark">Dark</button>
+          </div>
+        </div>
         <p class="sub">
-          Open House Chicago · Oct 17–18, 2026. Your ambitious but flexible weekend plan:
-          downtown Saturday, North Side Sunday. Tap <b>Directions</b> at any stop to navigate
-          from wherever you are now. Visited checkmarks save in this browser only.
+          Open House Chicago · Oct 17–18, 2026. Downtown Saturday, North Side Sunday.
+          Tap <b>Directions</b> from wherever you are. Visited checkmarks and your last
+          day tab are saved in this browser only.
         </p>
         <div class="pills">
           <span class="pill">🎟️ Free Open House visits</span>
@@ -30,6 +45,22 @@
         <button id="sunTab" type="button" class="tab">Sun · North Side</button>
       </div>
 
+      <section class="near-panel">
+        <strong>📍 What’s closest to me?</strong>
+        <p class="muted">
+          Uses your phone’s location to rank sites by approximate straight-line distance.
+          No API key or backend.
+        </p>
+        <button type="button" class="loc-button" id="nearbyBtn">
+          Find nearby sites
+        </button>
+        <label class="check near-options">
+          <input type="checkbox" id="includeVisited" />
+          Include already-visited sites
+        </label>
+        <div id="nearResults" aria-live="polite"></div>
+      </section>
+
       <section class="progress">
         <div id="progressText">0 visited</div>
         <div class="meter"><div class="bar" id="bar"></div></div>
@@ -42,15 +73,17 @@
         <p>
           “Directions” opens Google Maps with the venue as the destination and your
           <b>current location</b> as the starting point (if location access is allowed).
-          Saturday links default to walking; Sunday links default to driving. You can switch
-          modes in Maps.
+          Scheduled Saturday links default to walking; Sunday schedule links default to
+          driving. Nearby recommendations use walking. You can switch modes in Maps.
         </p>
       </section>
 
       <footer>
-        Times are targets, not reservations. Queues, closures and final admissions may change.
-        Venue hours are from the Open House Chicago 2026 site list. Parking, food, and any
-        optional purchases may cost money; site entry is free under Open House participation.
+        Times are targets, not reservations. Queues, closures and final admissions may
+        change. Approximate distances use stored coordinates (straight line, not street
+        routes). Location is processed on your device and is not saved by this page.
+        Parking, food, and optional purchases may cost money; site entry is free under Open
+        House participation.
       </footer>
     </main>
     <script src="./app.js" type="module"></script>
