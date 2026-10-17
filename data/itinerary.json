@@ -1,0 +1,171 @@
+{
+  "days": {
+    "sat": [
+      {
+        "name": "The Cliff Dwellers Club",
+        "time": "10:00",
+        "duration": "40 min",
+        "note": "Private arts club, 22nd-floor terrace. Arrive early for the queue.",
+        "priority": "anchor",
+        "address": "200 S. Michigan Ave., Suite #2200, Chicago, IL 60604",
+        "hours": "Sat 10am-4pm; Sun Closed",
+        "url": "https://openhousechicago.org/sites/recBMBW1bkX7BdHJA"
+      },
+      {
+        "name": "Orchestra Hall at Chicago Symphony Center",
+        "time": "10:45",
+        "duration": "35 min",
+        "note": "See the auditorium and normally restricted club and event spaces.",
+        "priority": "anchor",
+        "address": "220 S. Michigan Ave., Chicago, IL 60604",
+        "hours": "Sat 10am-4pm; Sun Closed",
+        "url": "https://openhousechicago.org/sites/rechdgNmH3qOFuITb"
+      },
+      {
+        "name": "Fine Arts Building",
+        "time": "11:30",
+        "duration": "30 min",
+        "note": "Historic artist studios and ten floors of creative spaces.",
+        "priority": "optional",
+        "address": "410 S. Michigan Ave., Chicago, IL 60605",
+        "hours": "Sat 10am-5pm; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/recARq4XfseEa6ozB"
+      },
+      {
+        "type": "break",
+        "time": "12:00",
+        "duration": "60 min",
+        "name": "Lunch",
+        "note": "Enjoy a real lunch in the South Loop / Loop; adjust the next arrival times if needed."
+      },
+      {
+        "name": "Federal Reserve Bank of Chicago and Money Museum",
+        "time": "13:10",
+        "duration": "35 min",
+        "note": "Prioritize the normally closed Great Hall; security may add time.",
+        "priority": "anchor",
+        "address": "230 S. LaSalle St. , Chicago, IL 60604",
+        "hours": "Sat 10am-5pm; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/rec3PgsWm6ATTeaYf"
+      },
+      {
+        "name": "The Chicago Board of Trade Building",
+        "time": "13:50",
+        "duration": "30 min",
+        "note": "Art Deco lobby and lower-level vault. Very close to the Fed.",
+        "priority": "optional",
+        "address": "141 W. Jackson Blvd., Chicago, IL 60604",
+        "hours": "Sat 10am-5pm; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/recS2oUjy5dPsUhxn"
+      },
+      {
+        "name": "One North Dearborn",
+        "time": "14:30",
+        "duration": "30 min",
+        "note": "Rooftop lounge and views.",
+        "priority": "optional",
+        "address": "1 N. Dearborn St., Chicago, IL 60625",
+        "hours": "Sat 10am-5pm; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/recSs00XbCAfi7qTo"
+      },
+      {
+        "name": "House of Blues",
+        "time": "15:15",
+        "duration": "45 min",
+        "note": "Four floors including exclusive Foundation Room. Closes at 4 PM!",
+        "priority": "anchor",
+        "address": "329 N. Dearborn St., Chicago, IL 60654",
+        "hours": "Sat 10am-4pm; Sun Closed",
+        "url": "https://openhousechicago.org/sites/recrmhaAipRD8Ftge"
+      }
+    ],
+    "sun": [
+      {
+        "name": "Uptown Theatre",
+        "time": "09:15",
+        "duration": "135 min",
+        "note": "Arrive early for 10 AM opening; guided auditorium access. Closes at 3 PM.",
+        "priority": "anchor",
+        "address": "4816 N Broadway, Chicago, IL 60640",
+        "hours": "Sat 10am-3pm; Sun 10am-3pm",
+        "url": "https://openhousechicago.org/sites/recVzrEJFpZCm04uH"
+      },
+      {
+        "name": "TimeLine Theatre",
+        "time": "11:35",
+        "duration": "25 min",
+        "note": "Nearby modern theater spaces; easy addition if Uptown finishes on time.",
+        "priority": "optional",
+        "address": "5035 N. Broadway, Chicago, IL 60640",
+        "hours": "Sat 10am-5pm; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/rec4N0I4hUmSYLuvY"
+      },
+      {
+        "type": "break",
+        "time": "12:00",
+        "duration": "75 min",
+        "name": "Lunch + drive",
+        "note": "Have lunch around Uptown or along the way to Avondale. Allow for parking."
+      },
+      {
+        "name": "Electrical Audio",
+        "time": "13:15",
+        "duration": "90 min",
+        "note": "Guided tours of an actual recording studio; queues can be substantial.",
+        "priority": "anchor",
+        "address": "2621 W. Belmont Ave., Chicago, IL 60618",
+        "hours": "Sat Closed; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/recE9khuvRUUvo9Ai"
+      },
+      {
+        "type": "break",
+        "time": "14:45",
+        "duration": "30 min",
+        "name": "Drive + parking",
+        "note": "Head to Ravenswood; use extra time if the studio runs late."
+      },
+      {
+        "name": "Starshaped Press",
+        "time": "15:15",
+        "duration": "45 min",
+        "note": "Letterpress demonstrations and a souvenir print.",
+        "priority": "anchor",
+        "address": "4636 N. Ravenswood Ave., Unit #103, Chicago, IL 60640",
+        "hours": "Sat 10am-5pm; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/recg3XX9UzLKZH4Dr"
+      },
+      {
+        "name": "Chicago Printmakers Collaborative",
+        "time": "16:10",
+        "duration": "35 min",
+        "note": "Traditional printmaking demonstrations; easy nearby finale.",
+        "priority": "optional",
+        "address": "4912 N. Western Ave., Chicago, IL 60625",
+        "hours": "Sat 11am-5pm; Sun 11am-5pm",
+        "url": "https://openhousechicago.org/sites/recOfIZeOjVTrjy23"
+      }
+    ]
+  },
+  "backups": [
+    {
+      "name": "DANK Haus German American Cultural Center",
+      "time": "Before 15:00",
+      "duration": "30–45 min",
+      "note": "Rooftop terrace; Sunday closes at 3 PM.",
+      "priority": "backup",
+      "address": "4740 N. Western Ave., Chicago, IL 60625",
+      "hours": "Sat 10am-5pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recRTErBO34VwTpZr"
+    },
+    {
+      "name": "Smashed Plastic Record Pressing",
+      "time": "Before 15:00",
+      "duration": "30–60 min",
+      "note": "Vinyl record pressing; go early instead of Electrical Audio, not after.",
+      "priority": "backup",
+      "address": "4200 W. Diversey Ave., Chicago, IL 60639",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recGNGNzLflAqzsPR"
+    }
+  ]
+}

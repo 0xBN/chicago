@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c1725" />
+    <title>Open House Chicago · Weekend Game Plan</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="eyebrow">Free things · Fast walking · Rare access</div>
+        <h1>Chicago, unlocked.</h1>
+        <p class="sub">
+          Open House Chicago · Oct 17–18, 2026. Your ambitious but flexible weekend plan:
+          downtown Saturday, North Side Sunday. Tap <b>Directions</b> at any stop to navigate
+          from wherever you are now. Visited checkmarks save in this browser only.
+        </p>
+        <div class="pills">
+          <span class="pill">🎟️ Free Open House visits</span>
+          <span class="pill">🚶 15 min / mile</span>
+          <span class="pill">🚗 Park once per cluster</span>
+          <span class="pill">🍜 Lunch included</span>
+        </div>
+      </header>
+
+      <div class="toolbar">
+        <button id="satTab" type="button" class="tab active">Sat · Downtown</button>
+        <button id="sunTab" type="button" class="tab">Sun · North Side</button>
+      </div>
+
+      <section class="progress">
+        <div id="progressText">0 visited</div>
+        <div class="meter"><div class="bar" id="bar"></div></div>
+      </section>
+
+      <div id="content"></div>
+
+      <section class="note">
+        <strong>How Google Maps works</strong>
+        <p>
+          “Directions” opens Google Maps with the venue as the destination and your
+          <b>current location</b> as the starting point (if location access is allowed).
+          Saturday links default to walking; Sunday links default to driving. You can switch
+          modes in Maps.
+        </p>
+      </section>
+
+      <footer>
+        Times are targets, not reservations. Queues, closures and final admissions may change.
+        Venue hours are from the Open House Chicago 2026 site list. Parking, food, and any
+        optional purchases may cost money; site entry is free under Open House participation.
+      </footer>
+    </main>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
