@@ -109,87 +109,108 @@
     ],
     "sun": [
       {
-        "name": "Uptown Theatre",
-        "time": "09:15",
-        "duration": "135 min",
-        "note": "Arrive early for 10 AM opening; guided auditorium access. Closes at 3 PM.",
+        "name": "Chicago Industrial Arts & Design Center",
+        "time": "10:00",
+        "duration": "50 min",
+        "note": "Tour four floors of forging, metalcasting, CNC, and woodworking at your own pace. Parking behind the building via the loading dock. Closes 3 PM.",
         "priority": "anchor",
-        "address": "4816 N Broadway, Chicago, IL 60640",
-        "hours": "Sat 10am-3pm; Sun 10am-3pm",
-        "url": "https://openhousechicago.org/sites/recVzrEJFpZCm04uH",
+        "address": "6433 N. Ravenswood Ave., Chicago, IL 60626",
+        "hours": "Sat 10am-5pm; Sun 10am-3pm",
+        "url": "https://openhousechicago.org/sites/rec1I6bfnNiP1gQOL",
         "coords": [
-          41.9696,
-          -87.6596
+          41.99897975723304,
+          -87.67480417134367
         ]
       },
       {
-        "name": "TimeLine Theatre",
-        "time": "11:35",
-        "duration": "25 min",
-        "note": "Nearby modern theater spaces; easy addition if Uptown finishes on time.",
-        "priority": "optional",
-        "address": "5035 N. Broadway, Chicago, IL 60640",
+        "name": "Casa Bonita",
+        "time": "11:10",
+        "duration": "50 min",
+        "note": "Mandatory guided tour: courtyard, recreation rooms, corridors, and pool. Main queue risk for the day \u2014 if 45+ min, skip and hit Park Castles + protect DANK (3 PM).",
+        "priority": "anchor",
+        "address": "7340 N. Ridge Blvd., Chicago, IL 60645",
         "hours": "Sat 10am-5pm; Sun 10am-5pm",
-        "url": "https://openhousechicago.org/sites/rec4N0I4hUmSYLuvY",
+        "url": "https://openhousechicago.org/sites/rectSaGCGUV1evJXU",
         "coords": [
-          41.9739,
-          -87.6598
+          42.015362,
+          -87.684348
         ]
       },
       {
-        "type": "break",
-        "time": "12:00",
-        "duration": "75 min",
-        "name": "Lunch + drive",
-        "note": "Have lunch around Uptown or along the way to Avondale. Allow for parking."
-      },
-      {
-        "name": "Electrical Audio",
-        "time": "13:15",
-        "duration": "90 min",
-        "note": "Guided tours of an actual recording studio; queues can be substantial.",
-        "priority": "anchor",
-        "address": "2621 W. Belmont Ave., Chicago, IL 60618",
-        "hours": "Sat Closed; Sun 10am-5pm",
-        "url": "https://openhousechicago.org/sites/recE9khuvRUUvo9Ai",
-        "coords": [
-          41.9394,
-          -87.694
-        ]
-      },
-      {
-        "type": "break",
-        "time": "14:45",
+        "name": "Park Castles Condominiums",
+        "time": "12:10",
         "duration": "30 min",
-        "name": "Drive + parking",
-        "note": "Head to Ravenswood; use extra time if the studio runs late."
+        "note": "Remarkable residential pool and courtyards. Quick but distinctive.",
+        "priority": "optional",
+        "address": "2442 W. Greenleaf Ave., Chicago, IL 60645",
+        "hours": "Sat 10am-5pm; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/recvykdc4aPNgBlCB",
+        "coords": [
+          42.009677,
+          -87.690957
+        ]
       },
       {
-        "name": "Starshaped Press",
-        "time": "15:15",
+        "type": "break",
+        "time": "12:40",
+        "duration": "60 min",
+        "name": "Lunch + travel",
+        "note": "Rogers Park / West Ridge or southbound drive. Tight for sit-down + driving \u2014 expect slippage."
+      },
+      {
+        "name": "DANK Haus German American Cultural Center",
+        "time": "13:50",
         "duration": "45 min",
-        "note": "Letterpress demonstrations and a souvenir print.",
+        "note": "Six floors, ballroom, roof terrace. Self-guided \u2014 no tour wait. Closes 3 PM \u2014 protect this.",
         "priority": "anchor",
-        "address": "4636 N. Ravenswood Ave., Unit #103, Chicago, IL 60640",
-        "hours": "Sat 10am-5pm; Sun 10am-5pm",
-        "url": "https://openhousechicago.org/sites/recg3XX9UzLKZH4Dr",
+        "address": "4740 N. Western Ave., Chicago, IL 60625",
+        "hours": "Sat 10am-5pm; Sun 10am-3pm",
+        "url": "https://openhousechicago.org/sites/recRTErBO34VwTpZr",
         "coords": [
-          41.9661,
-          -87.6743
+          41.96803213338325,
+          -87.6892420156366
         ]
       },
       {
         "name": "Chicago Printmakers Collaborative",
-        "time": "16:10",
+        "time": "14:40",
         "duration": "35 min",
-        "note": "Traditional printmaking demonstrations; easy nearby finale.",
+        "note": "Live etching, lithography, screen-printing, relief demos. Walk from DANK Haus. Cut first if running late.",
         "priority": "optional",
         "address": "4912 N. Western Ave., Chicago, IL 60625",
         "hours": "Sat 11am-5pm; Sun 11am-5pm",
         "url": "https://openhousechicago.org/sites/recOfIZeOjVTrjy23",
         "coords": [
-          41.9717,
-          -87.6869
+          41.970867,
+          -87.689172
+        ]
+      },
+      {
+        "name": "Starshaped Press",
+        "time": "15:25",
+        "duration": "35 min",
+        "note": "Working letterpress studio; free souvenir print. Top four to protect with CIADC, Casa Bonita, DANK.",
+        "priority": "anchor",
+        "address": "4636 N. Ravenswood Ave., Unit #103, Chicago, IL 60640",
+        "hours": "Sat 10am-5pm; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/recg3XX9UzLKZH4Dr",
+        "coords": [
+          41.966123,
+          -87.674798
+        ]
+      },
+      {
+        "name": "All Saints' Episcopal Church",
+        "time": "16:10",
+        "duration": "35 min",
+        "note": "Historic wood-frame church; bell ringing on the hour \u2014 aim for 5 PM close if offered. Sun 1\u20135 PM.",
+        "priority": "optional",
+        "address": "4550 N. Hermitage Ave., Chicago, IL 60640",
+        "hours": "Sat 10am-5pm; Sun 1-5pm",
+        "url": "https://openhousechicago.org/sites/recWw32RMrQpzvCyw",
+        "coords": [
+          41.96498581989252,
+          -87.67304963266032
         ]
       }
     ]
@@ -243,73 +264,73 @@
     ],
     "sun": [
       {
-        "name": "DANK Haus German American Cultural Center",
-        "time": "Before 15:00",
-        "duration": "30\u201345 min",
-        "note": "Rooftop terrace; Sunday closes at 3 PM.",
+        "name": "TimeLine Theatre",
+        "time": "Flexible",
+        "duration": "25\u201340 min",
+        "note": "Theater spaces without Uptown\u2019s queue \u2014 swap for Printmakers or All Saints if you want another stage fix.",
         "priority": "backup",
-        "address": "4740 N. Western Ave., Chicago, IL 60625",
-        "hours": "Sat 10am-5pm; Sun 10am-3pm",
-        "url": "https://openhousechicago.org/sites/recRTErBO34VwTpZr",
+        "address": "5035 N. Broadway, Chicago, IL 60640",
+        "hours": "Sat 10am-5pm; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/rec4N0I4hUmSYLuvY",
         "coords": [
-          41.9688,
-          -87.6881
+          41.9738248,
+          -87.6618953
+        ]
+      },
+      {
+        "name": "Uptown Theatre",
+        "time": "Flexible",
+        "duration": "90+ min",
+        "note": "Spectacular auditorium but Saturday-style 2h+ queues reported \u2014 not on today\u2019s plan unless you choose the wait.",
+        "priority": "backup",
+        "address": "4816 N Broadway, Chicago, IL 60640",
+        "hours": "Sat 10am-3pm; Sun 10am-3pm",
+        "url": "https://openhousechicago.org/sites/recVzrEJFpZCm04uH",
+        "coords": [
+          41.969505,
+          -87.659713
+        ]
+      },
+      {
+        "name": "Electrical Audio",
+        "time": "Flexible",
+        "duration": "60\u201390 min",
+        "note": "Recording studio tours; substantial queues. Old Sunday route \u2014 only if you bail on the north-side craft loop.",
+        "priority": "backup",
+        "address": "2621 W. Belmont Ave., Chicago, IL 60618",
+        "hours": "Sat Closed; Sun 10am-5pm",
+        "url": "https://openhousechicago.org/sites/recE9khuvRUUvo9Ai",
+        "coords": [
+          41.939394,
+          -87.693803
         ]
       },
       {
         "name": "Smashed Plastic Record Pressing",
         "time": "Before 15:00",
         "duration": "30\u201360 min",
-        "note": "Vinyl record pressing; go early instead of Electrical Audio, not after.",
+        "note": "Vinyl pressing; closes 3 PM Sunday.",
         "priority": "backup",
         "address": "4200 W. Diversey Ave., Chicago, IL 60639",
         "hours": "Sat 10am-3pm; Sun 10am-3pm",
         "url": "https://openhousechicago.org/sites/recGNGNzLflAqzsPR",
         "coords": [
-          41.9316,
-          -87.7322
+          41.931846,
+          -87.73249
         ]
       },
       {
         "name": "FarmZero",
         "time": "Before 17:00",
         "duration": "30\u201350 min",
-        "note": "Tiny guided tours of an 18th-floor hydroponic grow room; potential free microgreens samples. Downtown detour, not nearby Uptown.",
+        "note": "18th-floor hydroponic grow room downtown \u2014 big detour from this route.",
         "priority": "backup",
         "address": "30 N. LaSalle St., Suite 1800, Chicago, IL 60602",
         "hours": "Sat Closed; Sun 10am-5pm",
         "url": "https://openhousechicago.org/sites/recqOmiiWAZOgKwKd",
         "coords": [
-          41.8825,
-          -87.6325
-        ]
-      },
-      {
-        "name": "Casa Bonita",
-        "time": "Before 17:00",
-        "duration": "40\u201360 min",
-        "note": "Guided visit through usually private residential pool and courtyards. Farther north, good as a swap for the studio circuit.",
-        "priority": "backup",
-        "address": "7340 N. Ridge Blvd., Chicago, IL 60645",
-        "hours": "Sat 10am-5pm; Sun 10am-5pm",
-        "url": "https://openhousechicago.org/sites/rectSaGCGUV1evJXU",
-        "coords": [
-          42.0156,
-          -87.6799
-        ]
-      },
-      {
-        "name": "Park Castles Condominiums",
-        "time": "Before 17:00",
-        "duration": "20\u201335 min",
-        "note": "Unusual residential indoor pool and courtyards; pair with Casa Bonita if choosing the Rogers Park route.",
-        "priority": "backup",
-        "address": "2442 W. Greenleaf Ave., Chicago, IL 60645",
-        "hours": "Sat 10am-5pm; Sun 10am-5pm",
-        "url": "https://openhousechicago.org/sites/recvykdc4aPNgBlCB",
-        "coords": [
-          42.0118,
-          -87.691
+          41.8828428,
+          -87.6354687
         ]
       }
     ]

@@ -320,8 +320,8 @@ function render() {
     sites.length ? (completed / sites.length) * 100 + "%" : "0%";
 
   const sat = day === "sat";
-  let html = `<h2>${sat ? "Saturday · The Loop" : "Sunday · Uptown → Avondale → Ravenswood"}</h2>
-<p class="hint">${sat ? "Park once downtown around 9:30–9:45 AM, then walk. Seven possible stops; House of Blues closes at 4 PM." : "Start at Uptown at 9:15 AM, then drive for later clusters. Five possible stops, plus time for queues."}</p>`;
+  let html = `<h2>${sat ? "Saturday · The Loop" : "Sunday · Rogers Park → Lincoln Square → Ravenswood"}</h2>
+<p class="hint">${sat ? "Park once downtown around 9:30–9:45 AM, then walk. Seven possible stops; House of Blues closes at 4 PM." : "Option C — north-side discoveries. Car for morning Rogers Park cluster; park near Western for afternoon walk cluster. Protect CIADC, Casa Bonita, DANK (3 PM), Starshaped."}</p>`;
   html += stops.map((x) => renderCard(x)).join("");
 
   const backups = DATA.backupByDay[day] || [];
@@ -332,6 +332,9 @@ function render() {
   if (sat) {
     html +=
       '<div class="note"><b>Saturday fallback:</b> If lines run long, cut Fine Arts Building or Board of Trade first. Protect Cliff Dwellers and House of Blues (4 PM closing).</div>';
+  } else {
+    html +=
+      '<div class="note"><b>Sunday fallback:</b> Casa Bonita queue 45+ min → skip temporarily, do Park Castles, protect DANK by 3 PM. Running late → cut Printmakers first; TimeLine is the theater swap in backups.</div>';
   }
 
   const content = document.getElementById("content");
