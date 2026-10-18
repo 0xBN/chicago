@@ -1,0 +1,3024 @@
+{
+  "meta": {
+    "source": "https://openhousechicago.org/api/sites",
+    "count": 201,
+    "syncedFrom": "2026-10-17T21:15:43.840Z"
+  },
+  "sites": [
+    {
+      "id": "recURKjIDlCxDmY21",
+      "name": "150 North Riverside",
+      "address": "150 N. Riverside Plaza, Chicago, IL 60606",
+      "note": "150 N Riverside will open the main lobby to view the 150-foot-long Media Stream. This is a self-guided experience.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recURKjIDlCxDmY21",
+      "coords": [
+        41.88539334149905,
+        -87.63841638525946
+      ]
+    },
+    {
+      "id": "recDlJa31hdbeCjwi",
+      "name": "333 South Wabash",
+      "address": "333 S. Wabash Ave., Chicago, IL 60604",
+      "note": "The lobby coffee shop, as well as the second floor food hall will be open for visitors to enjoy and access to floor 16 will afford a peek at a vacant office level with great views.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recDlJa31hdbeCjwi",
+      "coords": [
+        41.87773450425021,
+        -87.6256881162228
+      ]
+    },
+    {
+      "id": "reciYenOmegShRVvg",
+      "name": "345 Art Gallery",
+      "address": "345 N. Kedzie Ave., Chicago, IL 60612",
+      "note": "Explore the gallery's exhibit spaces and works on a self-guided tour.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-5pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/reciYenOmegShRVvg",
+      "coords": [
+        41.887792,
+        -87.706198
+      ]
+    },
+    {
+      "id": "recUoGStNgVw6Qd7F",
+      "name": "345 N. Morgan",
+      "address": "345 N. Morgan St. , Chicago, IL 60607",
+      "note": "345 N. Morgan will offer access to the amenity spaces located on the 11th Floor of the building including the conservatory, conference room, and roof deck.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recUoGStNgVw6Qd7F",
+      "coords": [
+        41.888208,
+        -87.6518967
+      ]
+    },
+    {
+      "id": "recMrmTrObxUqF9iC",
+      "name": "5040-5060 North Marine Drive Condominiums",
+      "address": "5040-5060 N. Marine Dr., Chicago, IL 60640",
+      "note": "Visitors can tour the lobby, the courtyard, and one apartment unit.  Owners will be on hand to speak about the building's history and architecture, and poster boards and a video will impart more information. Visitors may take part in any or all of the activities.",
+      "siteType": "Residential",
+      "satHours": "10am-4pm",
+      "sunHours": "12-4pm",
+      "hours": "Sat 10am-4pm; Sun 12-4pm",
+      "url": "https://openhousechicago.org/sites/recMrmTrObxUqF9iC",
+      "coords": [
+        41.974822,
+        -87.651998
+      ]
+    },
+    {
+      "id": "recqGPV0m9MimOEAS",
+      "name": "540 W. Madison",
+      "address": "540 W. Madison St., Chicago, IL 60661",
+      "note": "Visit the lobby and tenant lounge, the newly renovated 2nd floor cafe, and 6th floor roof garden. A brochure with building information will also be available.",
+      "siteType": "Commercial",
+      "satHours": "11am-4pm",
+      "sunHours": "Closed",
+      "hours": "Sat 11am-4pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recqGPV0m9MimOEAS",
+      "coords": [
+        41.882191,
+        -87.641636
+      ]
+    },
+    {
+      "id": "rec6bAD3uE2cmyrSQ",
+      "name": "6018North",
+      "address": "6018 N. Kenmore Ave., Chicago, IL 60660",
+      "note": "On view is the set of a recent performance \"Persephone: Extraction & Metamorphosis,\" where artists and performers collaboratively developed a time-based, immersive experience that unfolded throughout the rooms and spaces. See the original details of the house and how it has been transformed for the show and other projects.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec6bAD3uE2cmyrSQ",
+      "coords": [
+        41.991443,
+        -87.657157
+      ]
+    },
+    {
+      "id": "rec21gaxRFsKSj1to",
+      "name": "Airstream Building",
+      "address": "1807 W. Sunnyside Ave., Chicago, IL 60640",
+      "note": "Visit the trailer atop 1807 W. Sunnyside Ave.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rec21gaxRFsKSj1to",
+      "coords": [
+        41.963249,
+        -87.674799
+      ]
+    },
+    {
+      "id": "rec3GJzal0WUO5ejS",
+      "name": "Al-Sadiq Mosque",
+      "address": "4448 S. Wabash Ave., Chicago, IL 60653",
+      "note": "Visitors can explore the mosque and view information on its history as well as the history of the Ahmadiyya Muslim Community.\n\nMembers will be on hand to give a brief introduction of the site and also answer any questions.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rec3GJzal0WUO5ejS",
+      "coords": [
+        41.813292,
+        -87.624821
+      ]
+    },
+    {
+      "id": "recP8ZEK0CEyJy05g",
+      "name": "Albany-Carroll Arts Building",
+      "address": "319 N. Albany Ave. , Chicago, IL 60612",
+      "note": "Visitors will have the opportunity to explore dozens of working artist studios, meet the artists behind the work, and experience the creative process firsthand.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recP8ZEK0CEyJy05g",
+      "coords": [
+        41.887088,
+        -87.703813
+      ]
+    },
+    {
+      "id": "recWw32RMrQpzvCyw",
+      "name": "All Saints' Episcopal Church",
+      "address": "4550 N. Hermitage Ave., Chicago, IL 60640",
+      "note": "At the top of each hour, visitors will have an opportunity to ring the restored bell historically used by the Ravenswood volunteer fire brigade.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 10am-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recWw32RMrQpzvCyw",
+      "coords": [
+        41.96498581989252,
+        -87.67304963266032
+      ]
+    },
+    {
+      "id": "recXYAyiAwkqgrSfb",
+      "name": "All Star Press",
+      "address": "2775 N. Milwaukee Ave., Chicago, IL 60647",
+      "note": "Visitors will have a chance to take a tour of the space and staff will assist in answering any questions. \n\nVisitors will take a self-guided tour with art experts in the vicinity to explain the process of screen-printing, as well as guide visitors through the studio space. Demonstrations may take place.",
+      "siteType": "Fine arts",
+      "satHours": "12:30-4:30pm",
+      "sunHours": "12:30-4:30pm",
+      "hours": "Sat 12:30-4:30pm; Sun 12:30-4:30pm",
+      "url": "https://openhousechicago.org/sites/recXYAyiAwkqgrSfb",
+      "coords": [
+        41.93168,
+        -87.711428
+      ]
+    },
+    {
+      "id": "rec1YOhD0uCtDiA8o",
+      "name": "Alliance Fran\u00e7aise de Chicago",
+      "address": "54 W. Chicago Ave., Chicago, IL 60610",
+      "note": "Both levels of the Chicago Avenue building will be open, and the library on the Dearborn side as well.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-4pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rec1YOhD0uCtDiA8o",
+      "coords": [
+        41.8968717,
+        -87.6303992
+      ]
+    },
+    {
+      "id": "rece9P9yMRgDV26a4",
+      "name": "Annunciation Greek Orthodox Cathedral of Chicago",
+      "address": "1017 N. LaSalle St., Chicago, IL 60614",
+      "note": "A station-by-station brochure will be available with a guide to answer questions at each station.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-12:30pm; 4-5pm",
+      "sunHours": "12:30-5pm",
+      "hours": "Sat 10am-12:30pm; 4-5pm; Sun 12:30-5pm",
+      "url": "https://openhousechicago.org/sites/rece9P9yMRgDV26a4",
+      "coords": [
+        41.901163,
+        -87.632544
+      ]
+    },
+    {
+      "id": "recuz1mJinpZkEEhC",
+      "name": "Anti-Cruelty",
+      "address": "510 N. LaSalle St., Chicago, IL 60654",
+      "note": "The lobby and adoption floors are open for visitors to enjoy a self-guided tour of the signature architectural elements. Visitors are welcome to spend time with the animals while onsite, or participate in the Reading Buddies program, where guests help pets relax by reading a provided book to them. Adoptions are also available!",
+      "siteType": "Other",
+      "satHours": "12:30-4:30pm",
+      "sunHours": "12:30-4:30pm",
+      "hours": "Sat 12:30-4:30pm; Sun 12:30-4:30pm",
+      "url": "https://openhousechicago.org/sites/recuz1mJinpZkEEhC",
+      "coords": [
+        41.891402,
+        -87.632852
+      ]
+    },
+    {
+      "id": "recLUlw0KPd9RXn6c",
+      "name": "AS+GG Architecture",
+      "address": "30 W. Monroe St., Suite 400, Chicago, IL 60603",
+      "note": "Visit the studio on the fourth floor of the Inland Steel Building at 30 West Monroe.\u00a0The open office environment encourages exploration, allowing guests to enjoy a self-guided tour of the space. Architects and designers will be stationed throughout the studio, including near project models, in the library, at video displays, and in conference areas, to answer questions and share insights about the firm's work. In the building lobby, visitors can view Radiant I, the renowned sculpture by Richard Lippold.",
+      "siteType": "Architecture or design studio",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recLUlw0KPd9RXn6c",
+      "coords": [
+        41.880862,
+        -87.6291
+      ]
+    },
+    {
+      "id": "recpYJtZvxxGTHttr",
+      "name": "Aspire Center for Workforce Innovation",
+      "address": "5500 W. Madison St., Chicago, IL 60644",
+      "note": "Public spaces including the plaza, roof terrace, lobby, mezzanine, and corridors will be open to visitors. A special exhibit highlights the transformation of Emmet School, the cultural impact of the West Side, and larger changes within the Austin neighborhood. Also on view: a 120-foot mural depicting the history of the West Side, highlighting innovations in healthcare, dedication to civic engagement, and Black leadership.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-2pm",
+      "hours": "Sat 10am-4pm; Sun 10am-2pm",
+      "url": "https://openhousechicago.org/sites/recpYJtZvxxGTHttr",
+      "coords": [
+        41.880868976441626,
+        -87.76378883547103
+      ]
+    },
+    {
+      "id": "recr3KlpZO5reYctH",
+      "name": "Assumption Greek Orthodox Church",
+      "address": "601 S. Central Ave., Chicago, IL 60644",
+      "note": "Mandatory 10-minute tours of the main church and chapel will be offered by Church members. No admittance to choir loft.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-1:30pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 10am-1:30pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recr3KlpZO5reYctH",
+      "coords": [
+        41.872472,
+        -87.76423
+      ]
+    },
+    {
+      "id": "rec7fmVFtfIPDHa0N",
+      "name": "Avalon Regal Theater",
+      "address": "1645 E. 79th St., Chicago, IL 60649",
+      "note": "The grand lobby and auditorium will be open for viewing.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec7fmVFtfIPDHa0N",
+      "coords": [
+        41.751237,
+        -87.583931
+      ]
+    },
+    {
+      "id": "recmz8znALVpeRvoL",
+      "name": "Avondale Bowl",
+      "address": "3118 N. Milwaukee Ave., Chicago, IL 60618",
+      "note": "Volunteers will escort guests from the front door to either the stairway or elevators leading to the bowling alley. Guests are encouraged to take a self-guided tour of the lanes and bar while stopping by the Shoe Counter to have any questions answered about the space.\n\nThe bowling alley will be accessible for photos as well as the bar. Guests will be asked to borrow a pair of bowling shoes if they plan on going up on the wood approaches to take pictures. Staff will be at the shoe counter to share historical details and answer any questions.",
+      "siteType": "Commercial",
+      "satHours": "12-5pm",
+      "sunHours": "12-3pm",
+      "hours": "Sat 12-5pm; Sun 12-3pm",
+      "url": "https://openhousechicago.org/sites/recmz8znALVpeRvoL",
+      "coords": [
+        41.93758208403928,
+        -87.72174396954308
+      ]
+    },
+    {
+      "id": "recorksdLaI6ShNdm",
+      "name": "BandWith Chicago",
+      "address": "148 S. California Ave., Chicago, IL 60612",
+      "note": "The entire building will be open including the coffee shop, music library, rehearsal spaces, and recording studio. Optional guided tours will be provided, but visitors can also enjoy a self-guided experience.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-2pm",
+      "hours": "Sat 10am-4pm; Sun 10am-2pm",
+      "url": "https://openhousechicago.org/sites/recorksdLaI6ShNdm",
+      "coords": [
+        41.8789063,
+        -87.6991369
+      ]
+    },
+    {
+      "id": "rec0ThOlamvHFfaTQ",
+      "name": "Beverly Hills Tennis Club",
+      "address": "9121 S. Hamilton Ave., Chicago, IL 60643",
+      "note": "Guests may explore the clubhouse meeting room, kitchen, locker rooms, outdoor patio and deck. Visitors will not be able to play tennis, but will be shown the courts.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/rec0ThOlamvHFfaTQ",
+      "coords": [
+        41.727619,
+        -87.675996
+      ]
+    },
+    {
+      "id": "recIIyjMUX9Zlbbjg",
+      "name": "Birch Road Clubhouse",
+      "address": "1113 W. Armitage Ave., Chicago, IL 60614",
+      "note": "Groups of 10-12 people will be given tours of the entire clubhouse.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recIIyjMUX9Zlbbjg",
+      "coords": [
+        41.917977,
+        -87.656111
+      ]
+    },
+    {
+      "id": "recXZxJRUvJcU2S9V",
+      "name": "bKL Architecture",
+      "address": "225 N. Columbus Dr., Suite 100, Chicago, IL 60601",
+      "note": "The studio will be open for self-guided tours. Staff will be available to answer any questions.",
+      "siteType": "Architecture or design studio",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recXZxJRUvJcU2S9V",
+      "coords": [
+        41.88650569526293,
+        -87.62011636198332
+      ]
+    },
+    {
+      "id": "rectMIqp6G41E2glr",
+      "name": "Blackhawks Ice Center",
+      "address": "1801 W. Jackson Blvd., Chicago, IL 60612",
+      "note": "The Ice Center will be open for self-guided tours.",
+      "siteType": "Other",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rectMIqp6G41E2glr",
+      "coords": [
+        41.8770644,
+        -87.6754904
+      ]
+    },
+    {
+      "id": "recoktdxZ4Bxv04bV",
+      "name": "Boxville",
+      "address": "330 E. 51st St., Chicago, IL 60615",
+      "note": "All or most shipping container-based enterprises will be open and accessible to visitors. There will also be a range of activities, including music, open air cooking, and more.",
+      "siteType": "Cultural/community",
+      "satHours": "12-5pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 12-5pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recoktdxZ4Bxv04bV",
+      "coords": [
+        41.802128,
+        -87.618248
+      ]
+    },
+    {
+      "id": "reclIs8x4UPHeHncT",
+      "name": "Broadway In Chicago's Cadillac Palace Theatre",
+      "address": "151 W. Randolph St., Chicago, IL 60601",
+      "note": "Visitors may explore the main lobby and the orchestra level seating area (no stage access). From the orchestra level seating area, you can view the entire theater space.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/reclIs8x4UPHeHncT",
+      "coords": [
+        41.884421,
+        -87.632854
+      ]
+    },
+    {
+      "id": "rec0JymX4wnCULIvV",
+      "name": "Bronzeville Black Metropolis National Heritage Area",
+      "address": "2418 S. Michigan Ave., Chicago, IL 60616",
+      "note": "Visitors will have the opportunity to view a video about the National Heritage Areas and Bronzeville landmarks as described by Bronzeville docents, tour guides, and historians. The video will play hourly starting at 11:00 am.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-5pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/rec0JymX4wnCULIvV",
+      "coords": [
+        41.8487254,
+        -87.626747
+      ]
+    },
+    {
+      "id": "rec67yAR8bhuzZMEo",
+      "name": "Bubbly + Norwich",
+      "address": "1048-1100 W. 37th St., Chicago, IL 60609",
+      "note": "Visitors will have a self-guided experience, and participating businesses and organizations will have their studios and workshops open.",
+      "siteType": "Other",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/rec67yAR8bhuzZMEo",
+      "coords": [
+        41.827114,
+        -87.652908
+      ]
+    },
+    {
+      "id": "recYyyom7FjY6cBVz",
+      "name": "Buddhist Temple of Chicago",
+      "address": "1151 W. Leland Ave., Chicago, IL 60640",
+      "note": "The entire temple will be open. Guests will be greeted in the lobby/reception area and taken on a tour. Blueprints of the space will be on view, accompanied by historical and architectural information from temple members. Guests are invited to take part in guided tours, and may also look around on their own.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-4pm",
+      "sunHours": "12-4pm",
+      "hours": "Sat 10am-4pm; Sun 12-4pm",
+      "url": "https://openhousechicago.org/sites/recYyyom7FjY6cBVz",
+      "coords": [
+        41.967089,
+        -87.65937
+      ]
+    },
+    {
+      "id": "recQ4gowYZzBKTUBU",
+      "name": "BUILD Headquarters",
+      "address": "5100 W. Harrison St., Chicago, IL 60644",
+      "note": "Visitors may take a self-guided tour of the building's three levels and urban farm.",
+      "siteType": "Other",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recQ4gowYZzBKTUBU",
+      "coords": [
+        41.873213723473576,
+        -87.75358782367843
+      ]
+    },
+    {
+      "id": "recQZVx9t05emGSkq",
+      "name": "Canopy",
+      "address": "180 W Washington Street, Suite 200, Chicago, IL 60602",
+      "note": "Visitors will have the chance to explore the building's history and engage with the architectural practice's current and upcoming work through project drawings, photos, models, renderings, and current material selections. Architects will be on site.",
+      "siteType": "Architecture or design studio",
+      "satHours": "11am-3pm",
+      "sunHours": "11am-3pm",
+      "hours": "Sat 11am-3pm; Sun 11am-3pm",
+      "url": "https://openhousechicago.org/sites/recQZVx9t05emGSkq",
+      "coords": [
+        41.88347295890961,
+        -87.63352547449114
+      ]
+    },
+    {
+      "id": "recgpxmKxLw8qJ0S6",
+      "name": "Carl Schurz High School",
+      "address": "3601 N. Milwaukee Ave., Chicago, IL 60641",
+      "note": "Visitors are invited to explore on their own. Guided tours may be offered in addition.",
+      "siteType": "Other",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recgpxmKxLw8qJ0S6",
+      "coords": [
+        41.947103,
+        -87.735706
+      ]
+    },
+    {
+      "id": "rectSaGCGUV1evJXU",
+      "name": "Casa Bonita",
+      "address": "7340 N. Ridge Blvd., Chicago, IL 60645",
+      "note": "Guided tours are mandatory and include: the sunken courtyard, hallways with terrazzo floors, party room, indoor swimming pool, exercise room, children's playroom, and refinishing room.",
+      "siteType": "Residential",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rectSaGCGUV1evJXU",
+      "coords": [
+        42.015362,
+        -87.684348
+      ]
+    },
+    {
+      "id": "recsTQyPqZbXSxUXO",
+      "name": "Center for Native Futures",
+      "address": "56 W. Adams St., Suite 102, Chicago, IL 60603",
+      "note": "Visit the exhibition, \u201cPocket Full of Shells,\u201d an artistic family showcase, and take part in select activities. Artist-in-residence Jason Wesaw may be onsite as well to offer studio tours and engage with visitors.",
+      "siteType": "Fine arts",
+      "satHours": "11am-4pm",
+      "sunHours": "11am-4pm",
+      "hours": "Sat 11am-4pm; Sun 11am-4pm",
+      "url": "https://openhousechicago.org/sites/recsTQyPqZbXSxUXO",
+      "coords": [
+        41.8796266342094,
+        -87.62971803557224
+      ]
+    },
+    {
+      "id": "recS480K448FsBBZ1",
+      "name": "Charles H. Shaw Technology and Learning Center",
+      "address": "931 S. Homan Ave., Chicago, IL 60624",
+      "note": "There will be four tours each day, beginning at 11 a.m., with the last tour at 2 p.m. Each tour will include all campus spaces, including the Sears Sunken Garden, the Powerhouse, and Nichols Tower.\nIf a visitor misses a scheduled tour, they may pick up a map at the Sunken Garden (weather permitting) or at the Tower and complete a self-guided tour of the three sites.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recS480K448FsBBZ1",
+      "coords": [
+        41.869208,
+        -87.709929
+      ]
+    },
+    {
+      "id": "recC3KRB68VZzZbIW",
+      "name": "Chicago Architecture Center",
+      "address": "111 E. Wacker Dr., Chicago, IL 60601",
+      "note": "Enjoy free Center admission, including all exhibit spaces. Come shop the Design Store as well.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recC3KRB68VZzZbIW",
+      "coords": [
+        41.888105,
+        -87.623727
+      ]
+    },
+    {
+      "id": "rec8iUQbfrki558Qy",
+      "name": "Chicago Architecture Center Marquette Hub",
+      "address": "136 S. Dearborn Street, Chicago, IL 60603",
+      "note": "The Marquette Hub will be open with opportunities to see the CAC's new satellite location, buy tickets to future CAC walking and building tours, shop at the Design Store, and have any OHC questions answered by staff.\n\nVisitors may also explore the lobby-adjacent exhibition \u201cNwi Yathmomen, We will tell our story,\u201d curated by visual artist Andrea Carlson (Ojibwe) and historian John Low (Pokagon Band of Potawatomi). The exhibition addresses the representation of Native people in the architectural design elements of the building and asserts the presence of Native peoples, and particularly Potawatomi people, in Chicago.",
+      "siteType": "Commercial",
+      "satHours": "11am-6pm",
+      "sunHours": "11am-6pm",
+      "hours": "Sat 11am-6pm; Sun 11am-6pm",
+      "url": "https://openhousechicago.org/sites/rec8iUQbfrki558Qy",
+      "coords": [
+        41.879856283132426,
+        -87.62957017449128
+      ]
+    },
+    {
+      "id": "rec1I6bfnNiP1gQOL",
+      "name": "Chicago Industrial Arts & Design Center",
+      "address": "6433 N. Ravenswood Ave., Chicago, IL 60626",
+      "note": "CIADC has four workshops spanning four floors that visitors will be able to explore at their own pace, seeing the building and work activity. Please respect people working in the space by keeping a safe distance.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-5pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/rec1I6bfnNiP1gQOL",
+      "coords": [
+        41.99897975723304,
+        -87.67480417134367
+      ]
+    },
+    {
+      "id": "recdX1vSQrUtfyiDL",
+      "name": "Chicago Loop Synagogue",
+      "address": "16 S. Clark St., Chicago, IL 60603",
+      "note": "The main sanctuary will be open to visitors along with the lower level beit medresh.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recdX1vSQrUtfyiDL",
+      "coords": [
+        41.881592,
+        -87.631063
+      ]
+    },
+    {
+      "id": "rechwaPgZOpEYYC6z",
+      "name": "Chicago Magic Lounge",
+      "address": "5050 N. Clark St., Chicago, IL 60640",
+      "note": "Visitors will tour the Chicago Magic Lounge in small groups, with a guide who will explain the artifacts, ephemera, posters, and architecture. There may be a short wait for your tour to begin.\n\nPlease note: this is an architectural and historical tour, there will be no magic performances.",
+      "siteType": "Fine arts",
+      "satHours": "10am-4:30pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-4:30pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rechwaPgZOpEYYC6z",
+      "coords": [
+        41.97393494758104,
+        -87.66829635937613
+      ]
+    },
+    {
+      "id": "recosTbyc8VplMf7I",
+      "name": "Chicago Maritime Museum",
+      "address": "1200 W. 35th St., Chicago, IL 60609",
+      "note": "The museum galleries and store will be open for self-guided exploration, with volunteer docents available to assist visitors.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recosTbyc8VplMf7I",
+      "coords": [
+        41.830896631516204,
+        -87.65633487661302
+      ]
+    },
+    {
+      "id": "recOfIZeOjVTrjy23",
+      "name": "Chicago Printmakers Collaborative",
+      "address": "4912 N. Western Ave., Chicago, IL 60625",
+      "note": "Throughout the day, demonstrations of etching, screen printing, lithography, and relief will be given by Hiroshi Ariyama, Deborah Maris Lader, Mary O'Connor, and Lauren Steinert. The studio will also have a craft station for all ages to create something they can take home with them. The gallery currently hosts the \"Stone Age\" Lithography Showcase along with art from all over the world.",
+      "siteType": "Fine arts",
+      "satHours": "11am-5pm",
+      "sunHours": "11am-5pm",
+      "hours": "Sat 11am-5pm; Sun 11am-5pm",
+      "url": "https://openhousechicago.org/sites/recOfIZeOjVTrjy23",
+      "coords": [
+        41.970867,
+        -87.689172
+      ]
+    },
+    {
+      "id": "recQg9xK7g2M1UPGO",
+      "name": "Chinese American Museum of Chicago",
+      "address": "238 W. 23rd St. , Chicago, IL 60616",
+      "note": "The museum is open on the first, second, and fourth floors, and is a self guided experience. The first floor gallery will host the show \"Garden Farms,\" and second floor holds the permanent exhibition \"Great Wall to Great Lakes: Chinese Immigration to the Midwest.\" The fourth floor consists of a reading room, and the Spotlight Series gallery, which features work by emerging and mid-career artists, and an exhibition called \"Light Light Light\" with work by the artist Percy Lam.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recQg9xK7g2M1UPGO",
+      "coords": [
+        41.851133,
+        -87.633481
+      ]
+    },
+    {
+      "id": "recqIXT3NzSOCienk",
+      "name": "Chinese American Service League Kam Liu Building",
+      "address": "2141 S. Tan Ct. , Chicago, IL 60616",
+      "note": "Visitors can choose between station-by-station exploration or guided tours. Tours will offer access to more areas of the building.\n\nGuided Tours\n10:30am | 12:00pm | 1:30pm | 3:00pm (Saturday only)\nWalk through CASL\u2019s building and hear how its architecture reflects its mission to serve Chicago\u2019s Chinese American and broader AAPI community.\n\nGallery Exhibit\nOn view all weekend: a gallery showcasing CASL\u2019s history and its impact on Chinatown through architecture.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-5pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recqIXT3NzSOCienk",
+      "coords": [
+        41.854485,
+        -87.635804
+      ]
+    },
+    {
+      "id": "recvbvPCWYPBRCirk",
+      "name": "Christ the Savior Orthodox Church",
+      "address": "927 N. LaSalle Dr., Chicago, IL 60610",
+      "note": "The main floor of the church will be open. Optional guided tours will be provided by church volunteers. The entrance to the altar space is restricted.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "12-3pm",
+      "hours": "Sat 10am-5pm; Sun 12-3pm",
+      "url": "https://openhousechicago.org/sites/recvbvPCWYPBRCirk",
+      "coords": [
+        41.899836,
+        -87.632592
+      ]
+    },
+    {
+      "id": "recKMADk7kETujYNC",
+      "name": "Church of the Atonement Episcopal",
+      "address": "5749 N. Kenmore Ave., Chicago, IL 60660",
+      "note": "The church will be open, with self-guided tours. Guests may also visit the Elizabethan Room in the parish house.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "11am-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 11am-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recKMADk7kETujYNC",
+      "coords": [
+        41.98701,
+        -87.656528
+      ]
+    },
+    {
+      "id": "recJ5g6MWFE9BrkYt",
+      "name": "Church of the Holy Family",
+      "address": "1080 W. Roosevelt Rd., Chicago, IL 60608",
+      "note": "Visitors are welcome to tour the church and enjoy a self-guided tour of the first floor. Photography is allowed and staff will be on hand to answer questions.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-1pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 10am-1pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recJ5g6MWFE9BrkYt",
+      "coords": [
+        41.867204,
+        -87.654774
+      ]
+    },
+    {
+      "id": "recQjyOrXmuLqnDnK",
+      "name": "Climate Action Museum",
+      "address": "300 S. Riverside Plaza, Chicago, IL 60606",
+      "note": "The museum will be open for guided or self-guided tours. Guided tours will be a station-by-station experience.\n\nEnjoy free popcorn, grab a CAM button or sticker while supplies last, and enter a drawing for a single-burner induction cooktop.",
+      "siteType": "Other",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recQjyOrXmuLqnDnK",
+      "coords": [
+        41.877640687374026,
+        -87.63854105021318
+      ]
+    },
+    {
+      "id": "recPuThS2UuuREczx",
+      "name": "Columbia Yacht Club",
+      "address": "111 N. Lake Shore Dr., Chicago, IL 60601",
+      "note": "Visitors are invited to take self-guided tours of member areas. There will be printed materials, and volunteer members will be stationed throughout to offer insights.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recPuThS2UuuREczx",
+      "coords": [
+        41.88419230706803,
+        -87.61214808158951
+      ]
+    },
+    {
+      "id": "recZPdl4pFDkHJDrZ",
+      "name": "Colvin House",
+      "address": "5940 N. Sheridan Rd., Chicago, IL 60660",
+      "note": "Guided tours will be provided.",
+      "siteType": "Other",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recZPdl4pFDkHJDrZ",
+      "coords": [
+        41.990355,
+        -87.655696
+      ]
+    },
+    {
+      "id": "recRTErBO34VwTpZr",
+      "name": "DANK Haus German American Cultural Center",
+      "address": "4740 N. Western Ave., Chicago, IL 60625",
+      "note": "All six floors and the roof terrace of the DANK Haus will be open, with some restrictions. A guided tour is available if visitors would like to participate, however they may do a self-guided tour.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-5pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recRTErBO34VwTpZr",
+      "coords": [
+        41.96803213338325,
+        -87.6892420156366
+      ]
+    },
+    {
+      "id": "reccV2tjxvVk772Lq",
+      "name": "David Rubenstein Forum at the University of Chicago",
+      "address": "1201 E. 60th St., Chicago, IL 60637",
+      "note": "Visitors will enjoy self-guided tours of the building.",
+      "siteType": "Other",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/reccV2tjxvVk772Lq",
+      "coords": [
+        41.78590859977336,
+        -87.5961589711643
+      ]
+    },
+    {
+      "id": "reck4MUiroq7MffUT",
+      "name": "DePaul University Holtschneider Performance Center - Jarvis Opera Hall",
+      "address": "800 W. Belden Ave., Chicago, IL 60614",
+      "note": "This year features the Sasha Gerritson and Eugene Jarvis Opera Hall. With an audience capacity of 160, the Jarvis Opera Hall provides a beautifully intimate opera experience. Staff will be onsite to answer questions about the space.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/reck4MUiroq7MffUT",
+      "coords": [
+        41.924495,
+        -87.648963
+      ]
+    },
+    {
+      "id": "recYTNH8Hw2giTqrB",
+      "name": "Ebenezer Missionary Baptist Church",
+      "address": "4501 S. Vincennes Ave., Chicago, IL 60653",
+      "note": "Visitors may enjoy a guided or self guided tour of the main sanctuary and all accessory rooms. This involves stairs to the balcony in the sanctuary or to the second floor in the attached building.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 10am-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recYTNH8Hw2giTqrB",
+      "coords": [
+        41.812836,
+        -87.613569
+      ]
+    },
+    {
+      "id": "recSi7s5kTFEAUwHG",
+      "name": "Edgewater History Museum",
+      "address": "5358 N. Ashland Ave., Chicago, IL 60640",
+      "note": "The Edgewater History Museum provides a compact, self-guided visitor experience. Docents are available to answer questions and provide guidance.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recSi7s5kTFEAUwHG",
+      "coords": [
+        41.97968171867254,
+        -87.67004458933232
+      ]
+    },
+    {
+      "id": "recE9khuvRUUvo9Ai",
+      "name": "Electrical Audio",
+      "address": "2621 W. Belmont Ave., Chicago, IL 60618",
+      "note": "Visitors will line up outside for short guided tours for 20-30 people. There is no self-guided option.",
+      "siteType": "Fine arts",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recE9khuvRUUvo9Ai",
+      "coords": [
+        41.939394,
+        -87.693803
+      ]
+    },
+    {
+      "id": "recw1vZiBCbsyi4Do",
+      "name": "Eris Brewery & Cider House",
+      "address": "4240 W. Irving Park Rd., Chicago, IL 60641",
+      "note": "Please note: most staff will be focused on service to restaurant guests rather than OHC. Questions about the building should be directed to volunteers wearing OHC t-shirts.\n\nVisitors will be provided a booklet with building information and map for a 15-20 minute self-guided tour. Optional guided tours will include areas of the building not open to the public. These areas are not wheelchair accessible.",
+      "siteType": "Libations (breweries, distilleries, etc)",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recw1vZiBCbsyi4Do",
+      "coords": [
+        41.953768,
+        -87.734236
+      ]
+    },
+    {
+      "id": "rec6q0V1F6JV7P8DM",
+      "name": "Farm on Ogden",
+      "address": "3555 W. Ogden Ave., Chicago, IL 60623",
+      "note": "Visitors will be provided with a map to lead them through self-guided tour stations. There will also be interpretive signage and staff near the designated stations to share more information.",
+      "siteType": "Other",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rec6q0V1F6JV7P8DM",
+      "coords": [
+        41.85429137922414,
+        -87.71444157331271
+      ]
+    },
+    {
+      "id": "recqOmiiWAZOgKwKd",
+      "name": "FarmZero",
+      "address": "30 N. LaSalle St., Suite 1800, Chicago, IL 60602",
+      "note": "Guided tours of six guests at a time are mandatory in the grow room given food safety responsibilities. Live harvesting and packing of edible flowers and microgreens will be on view, and samples of microgreens will be offered.\n\nThere will also be a station-by-station experience in the office space and processing room.",
+      "siteType": "Commercial",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recqOmiiWAZOgKwKd",
+      "coords": [
+        41.8828428,
+        -87.6354687
+      ]
+    },
+    {
+      "id": "rec3PgsWm6ATTeaYf",
+      "name": "Federal Reserve Bank of Chicago and Money Museum",
+      "address": "230 S. LaSalle St. , Chicago, IL 60604",
+      "note": "Visitors will enjoy exclusive access to the Great Hall, a space not normally open to the public. Explore on your own or enjoy brief presentations from Chicago Fed volunteers. At the Money Museum, visitors can try their hand at detecting counterfeit notes, learn what a million dollars looks like, and view the rare currency on display. There will also be a temporary exhibit on display: A Century of Route 66 - Driving Culture and Commerce. \n\nVisitor entry will conclude at 4:30 PM each day.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec3PgsWm6ATTeaYf",
+      "coords": [
+        41.878452,
+        -87.632576
+      ]
+    },
+    {
+      "id": "rec8RGoVaouELZ97g",
+      "name": "Field Notes Brand",
+      "address": "401 N. Racine Ave., Chicago, IL 60642",
+      "note": "The retail shop, main design studio, and warehouse space will be open for viewing. \n\nVisitors will be able to visit the gift shop and see the main design studio/ work space and warehouse/ pack and ship area.",
+      "siteType": "Commercial",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/rec8RGoVaouELZ97g",
+      "coords": [
+        41.889104,
+        -87.656709
+      ]
+    },
+    {
+      "id": "recARq4XfseEa6ozB",
+      "name": "Fine Arts Building",
+      "address": "410 S. Michigan Ave., Chicago, IL 60605",
+      "note": "Visitors will enjoy a self-guided tour through all 10 floors of the Fine Arts Building, exploring the majestic architecture, history, and creativity of this 19th-century Chicago landmark.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recARq4XfseEa6ozB",
+      "coords": [
+        41.876423,
+        -87.624511
+      ]
+    },
+    {
+      "id": "recGxn7cJyxAaXhEe",
+      "name": "First Church of Deliverance",
+      "address": "4315 S. Wabash Ave., Chicago, IL 60653",
+      "note": "Visitors may explore the first floor sanctuary, foyer, and exterior areas, with recorded audio guide provided. Additionally, FCD music products such as CDs, Vinyl, and music books are available by suggested donation.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "1:30-5pm",
+      "hours": "Sat 10am-5pm; Sun 1:30-5pm",
+      "url": "https://openhousechicago.org/sites/recGxn7cJyxAaXhEe",
+      "coords": [
+        41.815895,
+        -87.624419
+      ]
+    },
+    {
+      "id": "recmDEuULgCRjUs37",
+      "name": "First Presbyterian Church of Chicago",
+      "address": "6400 S. Kimbark Ave., Chicago, IL 60637",
+      "note": "Visitors are invited to explore the architecture, history, and ongoing transformation of a landmark that has served Chicago for nearly two centuries while embracing new possibilities for art, neighborhood life, and public engagement.\n\nThe campus will also feature a dynamic program of contemporary arts and cultural activities. Visitors may encounter site-specific visual art installations, artist activations, live performances, open studios, chef-led culinary programming, and other community-centered experiences as part of First Church's ongoing partnership with the Chicago Architecture Center through the Built on Belief initiative.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recmDEuULgCRjUs37",
+      "coords": [
+        41.778695,
+        -87.59462
+      ]
+    },
+    {
+      "id": "recDtSroJizyIfi89",
+      "name": "First United Methodist Church at the Chicago Temple",
+      "address": "77 W. Washington St., Lobby Level, Chicago, IL 60602",
+      "note": "Visitors are invited to take self-guided tours of the lobby and Sanctuary. The Sky Chapel is available to tour on other occasions as listed on the church's website.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-3pm",
+      "sunHours": "1-4pm",
+      "hours": "Sat 10am-3pm; Sun 1-4pm",
+      "url": "https://openhousechicago.org/sites/recDtSroJizyIfi89",
+      "coords": [
+        41.883093,
+        -87.630655
+      ]
+    },
+    {
+      "id": "recT2skZw6AdEiknj",
+      "name": "Florence Lowden Miller Historic Pullman Center",
+      "address": "614 E. 113th St. , Chicago, IL 60628",
+      "note": "Visitors can explore the building\u2019s first floor and collections on display.Guided tours will depart at 11 AM, 12 PM, 1 PM, 2 PM, and 3 PM. Tours end near the Historic Pullman Foundation Exhibit Hall, also open during OHC weekend.\n\n</p><br>11 AM, 1 PM, and 3 PM: The Four Stories Tour<br>\nA short walk through the town the Pullman Company built, touching on urban planning, rail innovation, labor history, and civil rights, and why this place matters to Chicago and U.S. history. \n\n</p><br>12 PM and 2 PM: Labor History Tour<br>\nThe story of the 1894 Pullman strike, how it grew into a national railroad boycott, and its legacy.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recT2skZw6AdEiknj",
+      "coords": [
+        41.689417,
+        -87.607734
+      ]
+    },
+    {
+      "id": "recP0JyCKLLte23QQ",
+      "name": "Four Star Mushrooms",
+      "address": "320 N. Oakley Blvd., Chicago, IL 60612",
+      "note": "Visitors can walk the grow-room corridor and see a controlled environment agriculture operation up close, with staff on hand to answer questions. Fresh mushroom punnets, mushroom coffee, and pastries from local bakers are available for purchase, along with Four Star shirts and hats \u2014 and Mushroom Club memberships. \n\nPlease wear closed-toe shoes.",
+      "siteType": "Other",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recP0JyCKLLte23QQ",
+      "coords": [
+        41.8873762455978,
+        -87.68427570355882
+      ]
+    },
+    {
+      "id": "recB8vVvtvtLWexQM",
+      "name": "Fourth Presbyterian Church",
+      "address": "126 E. Chestnut St., Chicago, IL 60611",
+      "note": "Visitors are welcome to view the Sanctuary at Michigan and Delaware and Buchanan Chapel on the second floor of the Gratz Center which is accessible from the sanctuary.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-1pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 10am-1pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recB8vVvtvtLWexQM",
+      "coords": [
+        41.89897142418375,
+        -87.62448684838613
+      ]
+    },
+    {
+      "id": "rec9dE7dFtX4m7Z7Z",
+      "name": "Fraternit\u00e9 Notre Dame",
+      "address": "502 N. Central Ave., Chicago, IL 60644",
+      "note": "Guided tours and photo displays will be available.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec9dE7dFtX4m7Z7Z",
+      "coords": [
+        41.88948,
+        -87.765428
+      ]
+    },
+    {
+      "id": "recUO5aXuKUcHQKj8",
+      "name": "Gary Comer Youth Center",
+      "address": "7200 S. Ingleside Ave., Chicago, IL 60619",
+      "note": "Visitors will receive a guided tour of the Youth Center, including the cafe, gym/auditorium, Best Buy Teen Tech Center, Dance Studio, Exhibition Hall and Rooftop Garden. Guests will also have the opportunity to visit the GCYC farm, just across the street.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recUO5aXuKUcHQKj8",
+      "coords": [
+        41.763727,
+        -87.602105
+      ]
+    },
+    {
+      "id": "rec3SrkWjyQoNiWzg",
+      "name": "Glessner House",
+      "address": "1800 S. Prairie Ave., Chicago, IL 60616",
+      "note": "10-minute guided tours of the main spaces on the first floor will be offered.",
+      "siteType": "Residential",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec3SrkWjyQoNiWzg",
+      "coords": [
+        41.857718,
+        -87.621211
+      ]
+    },
+    {
+      "id": "recUqRnGJu8pgmSaH",
+      "name": "Goettsch Partners",
+      "address": "224 S. Michigan Ave., Floor 17, Chicago, IL 60604",
+      "note": "Goettsch Partners staff will take all guests through a 15-20 minute guided tour of the office, viewing recent work. Volunteers will greet guests while awaiting staff tour guides to cycle back to the lobby. There may be a brief wait when you arrive.",
+      "siteType": "Architecture or design studio",
+      "satHours": "10am-2pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-2pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recUqRnGJu8pgmSaH",
+      "coords": [
+        41.878658,
+        -87.6251
+      ]
+    },
+    {
+      "id": "recerDTu3qPo1HO0Q",
+      "name": "Graceland Cemetery and Arboretum",
+      "address": "4001 N. Clark St., Chicago, IL 60613",
+      "note": "<p>Enjoy a lineup of activities all day at Beyond the Gates: Glimpses of Graceland! Visitors will be welcomed into Graceland beginning at 10 am when the vendor marker opens located in the main entrance parking lot and pedestrian plaza near the visitor center. <p>\n\n<p>The main entrance will remain open for pedestrian or bicycle traffic only; vehicles will be required to enter at the Greenwood Gate entrance.  Parking instructions will be provided at the Greenwood Gate. <p>\n\n<p>At various points each day, guests can engage with various vendors, guest speakers, and docents as well as view the cemetery at their own pace or during one of the scheduled events.  Please expect to pay for any art, food, or swag that you wish to purchase from the vendors onsite.  All other events provided by Graceland are free to the public. <p>\n\n<p>Please see link for detailed listing each day:  <a href=\"https://tr.ee/DEW5kUfpgf\" target=\"_blank\"><u><strong>https://tr.ee/DEW5kUfpgf</strong></u></a><p>",
+      "siteType": "Cultural/community",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recerDTu3qPo1HO0Q",
+      "coords": [
+        41.95486986373436,
+        -87.66188461807167
+      ]
+    },
+    {
+      "id": "rec6RYdbB6btS5GON",
+      "name": "Greater Tabernacle Cathedral",
+      "address": "11300 S. Dr. Martin Luther King Jr. Dr., Chicago, IL 60628",
+      "note": "Visitors will be offered optional guided tours of the sanctuary, administration building, and Fellowship Hall. A self-guided, station-by-station experience is also available.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 10am-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/rec6RYdbB6btS5GON",
+      "coords": [
+        41.68893157434621,
+        -87.61408503418754
+      ]
+    },
+    {
+      "id": "recfkTuWskiyKOebG",
+      "name": "Griffin Museum of Science and Industry",
+      "address": "5700 S. Lake Shore Dr., Chicago, IL 60637",
+      "note": "<p>OHC Visitors will be able to grab a scavenger hunt when they arrive to learn more about the architecture of the museum.</p> <p>Museum admission is free on Sunday, October 18 only. Tickets are required and advanced reservations are strongly encouraged. <a href=\"https://www.griffinmsi.org/tickets\" target=\"_blank\"><u><strong>Reserve your free tickets</strong></u></a>, use promo code <strong>OPENHOUSE</strong>. The museum will also be open on Saturday, October 17 with paid admission. Use promo code OHC20 to get 20% off General Admission tickets for Saturday.</p>\n\n<p>Please note this site does not allow priority access.</p>",
+      "siteType": "Cultural/community",
+      "satHours": "Closed",
+      "sunHours": "10am-4pm",
+      "hours": "Sat Closed; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recfkTuWskiyKOebG",
+      "coords": [
+        41.790981,
+        -87.582959
+      ]
+    },
+    {
+      "id": "recKifqiQ70hf65p9",
+      "name": "Growing Home's Wood Street Urban Farm",
+      "address": "5814 S. Wood St., Chicago, IL 60636",
+      "note": "All growing spaces, the processing area, and training trailers will be open.",
+      "siteType": "Other",
+      "satHours": "11am-5pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 11am-5pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recKifqiQ70hf65p9",
+      "coords": [
+        41.787919,
+        -87.669508
+      ]
+    },
+    {
+      "id": "rechmDWcDeTmOw2k6",
+      "name": "Guild Row",
+      "address": "3130 N. Rockwell St, Chicago, IL 60618",
+      "note": "The main campus building will be open for a guided architecture and real estate development tour with information about Guild Row's ever-evolving offerings. Food and beverage by Little Lark - a family-friendly pizza and cocktail restaurant within Guild Row - will be available for purchase before and after tours on Saturday. Little Lark will be closed on Sunday for an event - coffee, snacks & brunch drinks will be available for purchase in Guild Hall before & after tours. Guided tours are mandatory.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-12pm",
+      "hours": "Sat 10am-4pm; Sun 10am-12pm",
+      "url": "https://openhousechicago.org/sites/rechmDWcDeTmOw2k6",
+      "coords": [
+        41.938715,
+        -87.693036
+      ]
+    },
+    {
+      "id": "recTun9bDyMyllnB4",
+      "name": "Harold Washington Library Center",
+      "address": "400 S. State St., Chicago, IL 60605",
+      "note": "Visitors are invited to take a self-guided tour of the building's art and architecture. Beginning at the Ida B. Wells Corridor, guided tours of up to 25 people will also be offered Saturday at 11am and Sunday at 1pm highlighting the art throughout the building.\n\nBetween the hours of 10am - 4pm on Saturday and 1pm - 3:30pm on Sunday, visitors will also enjoy behind-the-scenes access to the architecturally significant Special Collections Reading Room on the 9th floor.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 10am-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recTun9bDyMyllnB4",
+      "coords": [
+        41.8763,
+        -87.627829
+      ]
+    },
+    {
+      "id": "recr3Hzad2xx0XhWA",
+      "name": "Heritage Museum of Asian Art",
+      "address": "3500 S. Morgan St., 3F, Chicago, IL 60609",
+      "note": "Visit two newly opened exhibitions during Open House Chicago: Cutting East to West, presented with the Guild of American Papercutters and featuring papercut artworks by artists from across the United States and around the world; and Becoming Words, presented with the Seldon Institute and featuring calligraphy by Chicago-based Japanese American master Hekiun Oda and Paris-based Iranian master Dr. Bahman Panahi. \n\n</p><br>Visitors may also enjoy self-guided exploration of the museum\u2019s permanent collection and special exhibitions, meet participating artists, view live demonstrations, and take part in hands-on art activities.\n\n</p><br>Visitors can watch live paper cutting demonstrations from 11:00 am - 3:00 pm on Saturday and Sunday.",
+      "siteType": "Cultural/community",
+      "satHours": "11am-5pm",
+      "sunHours": "11am-5pm",
+      "hours": "Sat 11am-5pm; Sun 11am-5pm",
+      "url": "https://openhousechicago.org/sites/recr3Hzad2xx0XhWA",
+      "coords": [
+        41.83083404170881,
+        -87.65140976301228
+      ]
+    },
+    {
+      "id": "rec7jrBMvrq9apCVI",
+      "name": "HKS",
+      "address": "72 W. Adams St., 11th Floor, Chicago, IL 60430",
+      "note": "Visitors will enjoy a self-guided tour of the office. HKS designers will be on hand to answer questions. Come sketch with us!",
+      "siteType": "Architecture or design studio",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rec7jrBMvrq9apCVI",
+      "coords": [
+        41.879903,
+        -87.63054
+      ]
+    },
+    {
+      "id": "recpFkSCL8BEWQWWU",
+      "name": "Holy Name Cathedral",
+      "address": "735 N. State St., Chicago, IL 60611",
+      "note": "Guided tours will be provided on the hour both days, and guests are welcome to join in late. Those in a guided tour will be guided throughout the Cathedral. Those on a self guided tour are asked to stay at the ground level and not walk up the stairs into the altar area. \n\nVisitors may take a brochure as they walk around, and optional Cathedral docent tours will be led every 30 minutes. Visitors are not permitted to enter the sanctuary on their own, but with a docent they can ascend the stairs into the sanctuary area.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-1pm",
+      "sunHours": "2-5pm",
+      "hours": "Sat 10am-1pm; Sun 2-5pm",
+      "url": "https://openhousechicago.org/sites/recpFkSCL8BEWQWWU",
+      "coords": [
+        41.895967,
+        -87.628064
+      ]
+    },
+    {
+      "id": "recxHPapwnQx0r0UL",
+      "name": "Holy Trinity Orthodox Cathedral",
+      "address": "1121 N. Leavitt St., Chicago, IL 60622",
+      "note": "The church will be open for self-guided tours, with parishioners available to answer questions. Regular scheduled tours are available on Eventbrite for signup by Trained Docents.\nhttps://www.eventbrite.com/e/holy-trinity-orthodox-cathedral-tour-tickets-1109170120689?aff=oddtdtcreator\n\nENTRANCE RESTRICTIONS: No hats, food, drinks, or pets allowed",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-4pm",
+      "sunHours": "12-4pm",
+      "hours": "Sat 10am-4pm; Sun 12-4pm",
+      "url": "https://openhousechicago.org/sites/recxHPapwnQx0r0UL",
+      "coords": [
+        41.902014,
+        -87.682099
+      ]
+    },
+    {
+      "id": "recrmhaAipRD8Ftge",
+      "name": "House of Blues",
+      "address": "329 N. Dearborn St., Chicago, IL 60654",
+      "note": "Guests may take a self-guided tour throughout four floors of the venue including the exclusive Foundation Room VIP Club, Music Hall and House of Blues Restaurant & Bar. Live Music starts at 12pm in the restaurant.",
+      "siteType": "Other",
+      "satHours": "10am-2pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-2pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recrmhaAipRD8Ftge",
+      "coords": [
+        41.888312,
+        -87.62877
+      ]
+    },
+    {
+      "id": "rechPG49Qzc9EQalK",
+      "name": "Hyde Park Art Center",
+      "address": "5020 S. Cornell Ave., Chicago, IL 60615",
+      "note": "Exhibitions will be open and on view. People are welcome to take a self-guided tour, stop at the cafe, and explore the collection of art books in the library.",
+      "siteType": "Fine arts",
+      "satHours": "10am-4pm",
+      "sunHours": "11am-4pm",
+      "hours": "Sat 10am-4pm; Sun 11am-4pm",
+      "url": "https://openhousechicago.org/sites/rechPG49Qzc9EQalK",
+      "coords": [
+        41.803743,
+        -87.586627
+      ]
+    },
+    {
+      "id": "recGEm1Ng2Or8355V",
+      "name": "Hyde Park Bank & Trust",
+      "address": "1525 E. 53rd St., Chicago, IL 60637",
+      "note": "Visitors are invited to explore the second-floor bank lobby.",
+      "siteType": "Other",
+      "satHours": "10am-1pm",
+      "sunHours": "2-4pm",
+      "hours": "Sat 10am-1pm; Sun 2-4pm",
+      "url": "https://openhousechicago.org/sites/recGEm1Ng2Or8355V",
+      "coords": [
+        41.79935357922858,
+        -87.58815007331458
+      ]
+    },
+    {
+      "id": "reclNsf4jYcxJ6UtW",
+      "name": "Hyde Park Union Church",
+      "address": "5600 S. Woodlawn Ave., Chicago, IL 60637",
+      "note": "Visitors will have access to the sanctuary to view the architecture and stained-glass windows. A continuous video will play, featuring the church's music director in the organ room.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "1-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 1-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/reclNsf4jYcxJ6UtW",
+      "coords": [
+        41.793031479229,
+        -87.59684978865933
+      ]
+    },
+    {
+      "id": "recdbOcCEXpOitMSL",
+      "name": "H\u00e9ctor Duarte Studio",
+      "address": "1900 W. Cullerton, Chicago, IL 60608",
+      "note": "Visit Duarte's working studio to view completed and in-process artworks and the outdoor mural. Walk yourself through or take a guided tour with the artist.",
+      "siteType": "Residential",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recdbOcCEXpOitMSL",
+      "coords": [
+        41.855216,
+        -87.673631
+      ]
+    },
+    {
+      "id": "recp13TGiILlsKgZu",
+      "name": "Ignite Glass Studios",
+      "address": "401 N. Armour St., Chicago, IL 60642",
+      "note": "Event studio, garden, rooftop and gallery spaces will be open for guided or self-guided tours. Guests should enter through the garden gate. Live glassblowing demos will take place during OHC hours, with a narrator sharing information and answering questions. There will also be hands-on glassblowing slots available for purchase either ahead of time or day-of in-person.",
+      "siteType": "Fine arts",
+      "satHours": "11am-4pm",
+      "sunHours": "11am-4pm",
+      "hours": "Sat 11am-4pm; Sun 11am-4pm",
+      "url": "https://openhousechicago.org/sites/recp13TGiILlsKgZu",
+      "coords": [
+        41.889066,
+        -87.665282
+      ]
+    },
+    {
+      "id": "recTv3tQPLabtWJSJ",
+      "name": "Illinois Tech's S.R. Crown Hall",
+      "address": "3360 S. State St., Chicago, IL 60616",
+      "note": "The main level of Crown Hall is open to guests walking through. Students may be working in the studios at that time and should not be photographed or disturbed. The lower level (where restrooms are located) is open for use of these facilities.",
+      "siteType": "Other",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recTv3tQPLabtWJSJ",
+      "coords": [
+        41.833355,
+        -87.627279
+      ]
+    },
+    {
+      "id": "rec8E7KtOJxHqtmeo",
+      "name": "Ingersoll-Blackwelder House",
+      "address": "10910 S. Prospect Ave., Chicago, IL 60643",
+      "note": "Volunteer Docents can answer questions about the history of the house and community and provide information on this important Chicago resource.\n\nA 2025 contest helped choose a color palette for the eventual exterior restoration of the home. The winning submissions will be on display.",
+      "siteType": "Residential",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/rec8E7KtOJxHqtmeo",
+      "coords": [
+        41.695466,
+        -87.667327
+      ]
+    },
+    {
+      "id": "recFvEtOTFAbAe4m2",
+      "name": "International Museum of Surgical Science",
+      "address": "1524 N. Lake Shore Dr., Chicago, IL 60610",
+      "note": "The entire museum will be open for self-guided tours.",
+      "siteType": "Cultural/community",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recFvEtOTFAbAe4m2",
+      "coords": [
+        41.910322,
+        -87.626513
+      ]
+    },
+    {
+      "id": "reck3JAZWRXaJjLaU",
+      "name": "Intuit Art Museum",
+      "address": "756 N. Milwaukee Ave., Chicago, IL 60642",
+      "note": "The lower-level, first-floor and second-floor galleries will be open. Guests can also engage with hands-on activities designed in connection with the exhibitions on view in the Center for Learning and Engagement (CLEO).",
+      "siteType": "Fine arts",
+      "satHours": "11am-5pm",
+      "sunHours": "11am-5pm",
+      "hours": "Sat 11am-5pm; Sun 11am-5pm",
+      "url": "https://openhousechicago.org/sites/reck3JAZWRXaJjLaU",
+      "coords": [
+        41.89552561640613,
+        -87.65445932513593
+      ]
+    },
+    {
+      "id": "recLwfpDRxxJnrtC5",
+      "name": "Irish American Heritage Center",
+      "address": "4626 N. Knox Ave., Chicago, IL 60630",
+      "note": "Visitors will enjoy a largely self-guided, station-by-station experience throughout the Irish American Heritage Center, enhanced by staff and volunteers providing historical and cultural information.\n\nThere will also be demonstrations and cultural activities throughout the day.\n\nThe elevator is currently out of service. Upper levels of this building will only be accessible via stairs. Please plan accordingly.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recLwfpDRxxJnrtC5",
+      "coords": [
+        41.9653418,
+        -87.7469536
+      ]
+    },
+    {
+      "id": "recGsu0UZm6AcOHvy",
+      "name": "Jane Addams Hull-House Museum",
+      "address": "800 S. Halsted St., Chicago, IL 60607",
+      "note": "The Jane Addams Hull-House will be open all weekend for exploration and special activations. Hull-House staff will be on-site to answer questions and offer short tours about the building\u2019s history and construction. Paying homage to bookbinder and Hull-House co-founder, Ellen Gates Starr, Regin Igloria will offer a drop-in community book binding workshop in the Residents\u2019 Dining Hall on Saturday. Sunday will feature seed-cleaning and art making with one of the exhibition's featured Artist Olly Costello. Also on display will be artwork from our workshop series with the artists from Red Line Service, and temporary exhibitions \"Perennial City: Experiments in Urban Gardening\" and \"Act Well Your Part, There All The Honor Lies.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recGsu0UZm6AcOHvy",
+      "coords": [
+        41.871678,
+        -87.647452
+      ]
+    },
+    {
+      "id": "reclkI8zkBulO25fv",
+      "name": "Japanese American Service Committee",
+      "address": "5700 N. Lincoln Ave., Chicago, IL 60659",
+      "note": "Visitors are welcome to take a self-guided tour. JASC Staff and volunteer docents will be stationed throughout to share more about the building and JASC programs.\n\nView multiple flower arrangements throughout the building created by students of Ms. Yuko Inoue Darcy of The Ohara School of Ikebana. Chicago Chapter Founder Unshin Ophara (1861-1916) aimed to develop a style of Ikebana that expresses the beauty of natural scenery.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/reclkI8zkBulO25fv",
+      "coords": [
+        41.984594021255376,
+        -87.6982394747184
+      ]
+    },
+    {
+      "id": "recfoMLgqpRuTpx0I",
+      "name": "Joan W. and Irving B. Harris Theater",
+      "address": "205 E. Randolph St., Chicago, IL 60601",
+      "note": "Enjoy a self-guided tour of the lobby spaces, Guthman Gallery Hallway, and auditorium for a closer look at the architecture and visual art in the spaces. Discounts on tickets to future performances will be sold on-site.",
+      "siteType": "Fine arts",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recfoMLgqpRuTpx0I",
+      "coords": [
+        41.884137,
+        -87.621851
+      ]
+    },
+    {
+      "id": "recyIzkqL4mLd8Mp6",
+      "name": "John H. Vanderpoel Art Association",
+      "address": "9625 S. Longwood Dr., Chicago, IL 60643",
+      "note": "Explore the museum\u2019s rare collection of over 600 pieces of American art by prominent artists like Grant Wood, Mary Cassatt, Maxfield Parrish, Daniel Chester French, and Lorado Taft, alongside Vanderpoel. Also on view will be \u201cIncantations\u201d, an exhibit featuring a trio of Chicago artists, Lisa Barcy, Nellie Seigel, and Paloma Trecka. Their works explore themes of devotion, memory, and humor through abstract and visually rhythmic collage. Guided tours will be available.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recyIzkqL4mLd8Mp6",
+      "coords": [
+        41.718359,
+        -87.66785
+      ]
+    },
+    {
+      "id": "recq5yh4wCI5lOYGE",
+      "name": "Judson & Moore Distillery",
+      "address": "3057 N. Rockwell Ave., BLDG 5, Chicago, IL 60618",
+      "note": "View the distillery operations, including mill room, still room, and barrel room, and purchase cocktails in the tasting room and bottle shop. Staff will be stationed in each room to answer questions.",
+      "siteType": "Libations (breweries, distilleries, etc)",
+      "satHours": "11am-5pm",
+      "sunHours": "10am-2pm",
+      "hours": "Sat 11am-5pm; Sun 10am-2pm",
+      "url": "https://openhousechicago.org/sites/recq5yh4wCI5lOYGE",
+      "coords": [
+        41.93740349032385,
+        -87.69237187472069
+      ]
+    },
+    {
+      "id": "recJJCJyQMGXvbd5u",
+      "name": "KAM Isaiah Israel",
+      "address": "5039 S. Greenwood Ave., Chicago , IL 60615",
+      "note": "The newly restored and landmarked Sanctuary will be open. Photography is permitted. \n\nThe building will offer timed entry, and visitors will walk through a metal detector. Please do not bring bags, and there is no coat check available.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recJJCJyQMGXvbd5u",
+      "coords": [
+        41.8028768814981,
+        -87.59860677331449
+      ]
+    },
+    {
+      "id": "recnzhoNzKh7nQ678",
+      "name": "Kehrein Center for the Arts",
+      "address": "5628 W. Washington Blvd., Chicago, IL 60644",
+      "note": "Visitors can tour the auditorium and view any art installations that are present at the time.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recnzhoNzKh7nQ678",
+      "coords": [
+        41.88238846702071,
+        -87.76642303098403
+      ]
+    },
+    {
+      "id": "rec2Z0x283WnciMvx",
+      "name": "Kenar Studio",
+      "address": "1007 N. Wolcott Ave., Chicago, IL 60622",
+      "note": "OHC visitors are invited to take a self-guided tour of the two levels of galleries featuring current and past retrospective and interactive art of Jerzy Kenar.",
+      "siteType": "Other",
+      "satHours": "11am-5pm",
+      "sunHours": "11am-5pm",
+      "hours": "Sat 11am-5pm; Sun 11am-5pm",
+      "url": "https://openhousechicago.org/sites/rec2Z0x283WnciMvx",
+      "coords": [
+        41.899973,
+        -87.674581
+      ]
+    },
+    {
+      "id": "recxwcGbvZIsMj1vu",
+      "name": "KOVAL Distillery",
+      "address": "4241 N. Ravenswood Ave., Chicago, IL 60613",
+      "note": "OHC 2026 Limited Edition Maple Syrup Cask finished Rye Whiskey will be available for purchase, with a portion of the proceeds going to support the CAC. \nThe distillery floor will be open to guests, with team members available to answer questions, offer tastings, and help navigate the self-guided tour. \nStaff will assist with guest flow and verify IDs for all spirit tastings.",
+      "siteType": "Libations (breweries, distilleries, etc)",
+      "satHours": "12-5pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 12-5pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recxwcGbvZIsMj1vu",
+      "coords": [
+        41.95890727921585,
+        -87.67338213098144
+      ]
+    },
+    {
+      "id": "recJMmacF3LyeHHXh",
+      "name": "Lake Effect Brewing Company",
+      "address": "3074 N. Milwaukee Ave., Chicago, IL 60618",
+      "note": "The brewing area is visible but will not be open. Pints, flights, and to-go beer will be for sale, and water will be offered.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recJMmacF3LyeHHXh",
+      "coords": [
+        41.9369197,
+        -87.7206006
+      ]
+    },
+    {
+      "id": "recQwNGtN1JIrGOSh",
+      "name": "Lake View Presbyterian Church",
+      "address": "3600 N. Broadway, Chicago, IL 60613",
+      "note": "The sanctuary will be open and volunteer docents will give optional tours.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recQwNGtN1JIrGOSh",
+      "coords": [
+        41.947547,
+        -87.647582
+      ]
+    },
+    {
+      "id": "recTff4HlneXqMGgL",
+      "name": "Legacy Charter School",
+      "address": "3318 W. Ogden Ave., Chicago, IL 60623",
+      "note": "Meet Legacy Scholar Ambassador docents who will lead tours and share what makes their school so special.",
+      "siteType": "Other",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-4pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recTff4HlneXqMGgL",
+      "coords": [
+        41.85725,
+        -87.708506
+      ]
+    },
+    {
+      "id": "recxA3nZZOCrO2ynm",
+      "name": "Lillstreet Art Center",
+      "address": "4401 N. Ravenswood Ave., Chicago, IL 60640",
+      "note": "Lillstreet will be open on all three floors, including three gallery spaces, retail shop, art-lined hallways, and select classrooms. Visitors are welcome to take a self-guided tour using maps provided by the front desk. \n\nClasses will be in session during the event, and signage will indicate rooms not to be entered during the weekend.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-4pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recxA3nZZOCrO2ynm",
+      "coords": [
+        41.961763,
+        -87.67353
+      ]
+    },
+    {
+      "id": "recdHSoVy2Aws86g3",
+      "name": "Ling Shen Ching Tze Buddhist Temple",
+      "address": "1035 W. 31st St., Chicago, IL 60608",
+      "note": "Visitors will be encouraged to enjoy a primarily self-guided experience throughout the temple. Most public rooms and shrine chambers dedicated to different Buddhas and Buddhist deities will be open for viewing. Limited staff and volunteers will be available to answer questions and provide information.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recdHSoVy2Aws86g3",
+      "coords": [
+        41.837716,
+        -87.652277
+      ]
+    },
+    {
+      "id": "recTpIjJF4bJ0w9uO",
+      "name": "LJC Design & Engineering",
+      "address": "35 E. Wacker Dr., Chicago, IL 60601",
+      "note": "The 15th-floor studio will be open for visitors to explore at their own pace, with LJC architects available throughout the space to answer questions and provide context. Small, guided tours of the 26th floor will be offered from 11:00 AM to 1:00 PM, featuring expansive city and river views.",
+      "siteType": "Architecture or design studio",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recTpIjJF4bJ0w9uO",
+      "coords": [
+        41.886488,
+        -87.626644
+      ]
+    },
+    {
+      "id": "recqESp8xgzFlAp8e",
+      "name": "Luther Memorial Church",
+      "address": "2500 W. Wilson Ave., Chicago, IL 60625",
+      "note": "Guests are welcome to explore the sanctuary on their own. There will be placards with details about various items of interest and church members to answer questions or provide assistance.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 10am-5pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recqESp8xgzFlAp8e",
+      "coords": [
+        41.96497,
+        -87.691462
+      ]
+    },
+    {
+      "id": "rectZP6wJLEb3gJpJ",
+      "name": "Mana Contemporary Chicago",
+      "address": "2233 S. Throop St., Chicago, IL 60608",
+      "note": "Multiple exhibitions will be on display throughout the building along with many open studios.",
+      "siteType": "Fine arts",
+      "satHours": "12-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 12-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rectZP6wJLEb3gJpJ",
+      "coords": [
+        41.850535,
+        -87.658262
+      ]
+    },
+    {
+      "id": "recHTO8rYyd4tvU4L",
+      "name": "McCormick Bridgehouse & Chicago River Museum",
+      "address": "99 E. Riverwalk, Chicago, IL 60601",
+      "note": "All five floors of the museum, plus its gear room, will be open to the public. Tours are self-guided with docents available for questions.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recHTO8rYyd4tvU4L",
+      "coords": [
+        41.888492,
+        -87.624651
+      ]
+    },
+    {
+      "id": "recIFmgUsMpogC1xO",
+      "name": "McCormick Place Rooftop Farm",
+      "address": "2310 E. Cermak Rd., Chicago, IL 60616",
+      "note": "The rooftop farm is located on the 5th floor of the McCormick Place West Building. Guests will move through the space at their own pace and staff will be available to answer questions.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recIFmgUsMpogC1xO",
+      "coords": [
+        41.852178,
+        -87.621894
+      ]
+    },
+    {
+      "id": "recek0ZiI6suXYFPS",
+      "name": "Mobile Makers Chicago",
+      "address": "1757 N. Kimball Ave. , Chicago, IL 60647",
+      "note": "Visitors may take a self-guided tour and enjoy a design/architecture related drop-in activity.",
+      "siteType": "Commercial",
+      "satHours": "10am-2pm",
+      "sunHours": "10am-2pm",
+      "hours": "Sat 10am-2pm; Sun 10am-2pm",
+      "url": "https://openhousechicago.org/sites/recek0ZiI6suXYFPS",
+      "coords": [
+        41.913245556854335,
+        -87.71146700727851
+      ]
+    },
+    {
+      "id": "recohgazoKMr3UOtR",
+      "name": "Monadnock Building",
+      "address": "53 W. Jackson Blvd., Chicago, IL 60604",
+      "note": "The Monadnock Building teams up with Chicago Fashion Week for a fashion-focused walk through history. Guests can explore the building's grand first-floor Lobby, stopping in at participating shops and studios for discoveries, a closer look at their work and a glimpse behind the scenes. \n\nAt Optimo's flagship store and showroom, learn about the exacting process of measuring and fitting a custom hat. Field & Florist invites visitors into an interactive exploration of its small-batch and international niche fragrance collection. \n\nAt The Shoe Hospital, see how fine footwear is restored and kept in service for years. At Florodora, discover a curated collection of women's clothing, shoes and accessories from independent designers. \n\nAt Zeglio, explore the inner construction of a bespoke garment, from its linings and hidden layers to the hand stitching behind a precise fit. \n\nAt Monadnock ArtWorks from 11-3, meet artist Patrice Olsen and explore her paintings, drawings and techniques.",
+      "siteType": "Commercial",
+      "satHours": "11am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 11am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recohgazoKMr3UOtR",
+      "coords": [
+        41.87808,
+        -87.62959
+      ]
+    },
+    {
+      "id": "recMbN9HCI9GDnCbo",
+      "name": "Muddy Waters MOJO Museum",
+      "address": "4339 S. Lake Park Ave., Chicago, IL 60653",
+      "note": "Some exhibits on the museum's ground floor and a portion of the basement area will be open for self-guided exploration. Musical performances and other programming is anticipated outside in the MOJO Healing Garden.",
+      "siteType": "Residential",
+      "satHours": "12-5pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 12-5pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recMbN9HCI9GDnCbo",
+      "coords": [
+        41.8159519,
+        -87.6003866
+      ]
+    },
+    {
+      "id": "recN4eZfYqfSbel2u",
+      "name": "Narrow Bridge Arts Club",
+      "address": "6028 S. Champlain Ave., Chicago, IL 60637",
+      "note": "Narrow Bridge Arts Club will be open for self-guided tours. Visitors are invited to explore, learn, and create alongside artists, activating the building and engage with a new exhibition by Architecture for Public Benefit. To celebrate the skills, creativity, and generosity of Narrow Bridge Art Club, members will lead activities.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "11am-5pm",
+      "sunHours": "11am-5pm",
+      "hours": "Sat 11am-5pm; Sun 11am-5pm",
+      "url": "https://openhousechicago.org/sites/recN4eZfYqfSbel2u",
+      "coords": [
+        41.7849533,
+        -87.6125401
+      ]
+    },
+    {
+      "id": "recRZ8hw8PAGkvZQN",
+      "name": "National Hellenic Museum",
+      "address": "333 S. Halsted St., Chicago, IL 60661",
+      "note": "Visit the new exhibition, The Odyssey Reimagined, which features the work of eighteen contemporary artists, working across painting, sculpture, photography, textiles, and sound, each responding to Homer\u2019s nearly 3,000-year-old, Odyssey. \n\nGuests are invited to explore the entire museum including the rooftop (weather permitting). Guided tours will also be available at the top of every hour. \n\nAdditionally, the museum will offer a special experience in the classroom studio where children and adults can participate in hands-on activities that connect ancient Greek culture to the present time. Activities include: \n\nInto the Modern: Using architectural forms found in Ancient Greek structures, as well as modern forms, visitors can create their own unique city skyline. \n\nPaint Like an Ancient Potter: Learn about traditional Greek motifs in Ancient Greek pottery, such as meanders, waves, and the symbolism of wheat and olive branches and try your own hand at classical design using paint pens to decorate small clay pots.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recRZ8hw8PAGkvZQN",
+      "coords": [
+        41.876935,
+        -87.647007
+      ]
+    },
+    {
+      "id": "recaJBG9rgs3Wj6qD",
+      "name": "National Public Housing Museum",
+      "address": "919 S. Ada St., Chicago, IL 60607",
+      "note": "Visitors can enjoy a self-guided visit of all of the museum\u2019s exhibits and installations. Museum highlights include architectural artifacts salvaged from the Jane Addams Homes, oral history listening stations where former residents share memories of Edgar Miller\u2019s Animal Court sculptures, and a chance to browse and play our collection of records from musicians who grew up in public housing. \n\nVisitors can also get a peek at three recreated apartments. These historic apartments share the stories of different families who lived in the Jane Addams Homes between 1938 and 1975. Normally accessible only as part of an interactive guided tour, the apartments will be open for free, self-guided exploration.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recaJBG9rgs3Wj6qD",
+      "coords": [
+        41.869479,
+        -87.659881
+      ]
+    },
+    {
+      "id": "recUsjLtWyyqEqdaS",
+      "name": "New Mount Pilgrim Missionary Baptist Church",
+      "address": "4301 W. Washington Blvd., Chicago, IL 60624",
+      "note": "Guests will be able to view the Sanctuary, with hosts available to answer questions and guide guests.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recUsjLtWyyqEqdaS",
+      "coords": [
+        41.881772,
+        -87.733315
+      ]
+    },
+    {
+      "id": "recgC3Krf8OZjZJVr",
+      "name": "Nichols Tower at Homan Square",
+      "address": "906 S. Homan Ave., Chicago, IL 60624",
+      "note": "The 14th floor and common areas on all floors will be open for self-guided tours, and art will be displayed on the 3rd floor.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recgC3Krf8OZjZJVr",
+      "coords": [
+        41.8696524,
+        -87.710804
+      ]
+    },
+    {
+      "id": "recCQgene6cG2HkOq",
+      "name": "Nicky's of Beverly",
+      "address": "10500 S. Western Ave., Chicago, IL 60643",
+      "note": "Visitors are welcome to walk throughout the restaurant at their leisure and may order elevated street fare, gelato, and a variety of craft beer, cocktails on tap to enjoy in the dining areas and the patio.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "11am-5pm",
+      "hours": "Sat 10am-5pm; Sun 11am-5pm",
+      "url": "https://openhousechicago.org/sites/recCQgene6cG2HkOq",
+      "coords": [
+        41.702716999480536,
+        -87.68178549999999
+      ]
+    },
+    {
+      "id": "recuFbkVp1ZAVRjPe",
+      "name": "Oak Woods Cemetery",
+      "address": "1035 E. 67th St., Chicago, IL 60637",
+      "note": "The cemetery grounds and the mausoleum will be open to visitors. The office will also be open each day until 3 PM on Saturday and 2 PM on Sunday.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recuFbkVp1ZAVRjPe",
+      "coords": [
+        41.7695381,
+        -87.6041518
+      ]
+    },
+    {
+      "id": "recYsO1LFsaMapwWb",
+      "name": "Olson Kundig",
+      "address": "954 W. Washington Blvd., Suite 700, Chicago, IL 60607",
+      "note": "Visitors are invited to explore the studio and view project exhibits, physical models, and drawings. The firm's short film \"Counterweight\" will be on view.\n\nOlson Kundig staff will be available throughout the weekend to discuss the firm's work.",
+      "siteType": "Commercial",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recYsO1LFsaMapwWb",
+      "coords": [
+        41.883342,
+        -87.6543575
+      ]
+    },
+    {
+      "id": "recSs00XbCAfi7qTo",
+      "name": "One North Dearborn ",
+      "address": "1 N. Dearborn St., Chicago, IL 60625",
+      "note": "Visitors will have self-guided access to the rooftop lounge and deck, offering skyline views of the city. Enjoy viewing the rooftop veggie garden, learning about the organic beehives, and playing lawn games.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recSs00XbCAfi7qTo",
+      "coords": [
+        41.88232716703297,
+        -87.6285823006051
+      ]
+    },
+    {
+      "id": "recqcWDVlwjTyg4Zf",
+      "name": "OPEN Center for the Arts",
+      "address": "2214 S. Sacramento Ave., Chicago, IL 60623",
+      "note": "Visitors may enjoy self-guided tours of OPEN's seasonal and permanent exhibitions, stage, patio, and studio. A community-based artist will also lead guests in a hands-on activity.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-2pm",
+      "sunHours": "10am-2pm",
+      "hours": "Sat 10am-2pm; Sun 10am-2pm",
+      "url": "https://openhousechicago.org/sites/recqcWDVlwjTyg4Zf",
+      "coords": [
+        41.851315,
+        -87.70048
+      ]
+    },
+    {
+      "id": "rechdgNmH3qOFuITb",
+      "name": "Orchestra Hall at Chicago Symphony Center",
+      "address": "220 S. Michigan Ave., Chicago, IL 60604",
+      "note": "Visitors will have access to the Michigan Avenue lobby and Adams Street passage, Orchestra Hall, Richard and Helen Thomas Club, Grainger Ballroom, Ling Z. and Michael C. Markovitz  Arcade, Buntrock Hall, Rotunda and the Forte event space. There will be self-guided and station by-station information. Learn and play in the kids\u2019 space in Buntrock Hall (recommended for ages 3-12.), featuring special activities, videos, coloring stations and scavenger hunt worksheets. Enjoy live music presented by the Chicago Symphony Negaunee Music Institute and behind-the-scenes fireside chats in Grainger Ballroom. Participate in a blood drive featuring Abbott\u2019s mixed reality experience with original music performed by the Chicago Symphony Orchestra.",
+      "siteType": "Fine arts",
+      "satHours": "10am-4pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-4pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rechdgNmH3qOFuITb",
+      "coords": [
+        41.879015,
+        -87.624982
+      ]
+    },
+    {
+      "id": "recVRTBNoZVtUIGww",
+      "name": "Our Lady of Sorrows Basilica & National Shrine",
+      "address": "3121 W. Jackson Blvd., Chicago, IL 60612",
+      "note": "Visits can enjoy a self-guided tour. Greeters will be available to answer questions.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "1-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 1-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recVRTBNoZVtUIGww",
+      "coords": [
+        41.877319,
+        -87.704077
+      ]
+    },
+    {
+      "id": "recLocAb8XbaNxhlC",
+      "name": "Palmisano Park",
+      "address": "2700 S. Halsted St., Chicago, IL 60608",
+      "note": "A welcome table will be at the park entrance by 27th and Halsted. Visitors can walk and explore on their own, or participate in short guided tours offered by the conservation nonprofit, <a href=\"https://openlands.org/\" target=\"_blank\">Openlands</a>, and landscape architect firm, <a href=\"https://www.site-design.com/\" target=\"_blank\">Site Design Group</a>. \n\nOpenlands will lead informal nature walks throughout the day, highlighting native plants and wildlife while Site Design will be giving short walking tours discussing the design, engineering, and history of the park. Tours will leave from the welcome table at 11:00 am, 1:00 pm, and 3:00 pm.",
+      "siteType": "Cultural/community",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recLocAb8XbaNxhlC",
+      "coords": [
+        41.843318,
+        -87.649036
+      ]
+    },
+    {
+      "id": "recvykdc4aPNgBlCB",
+      "name": "Park Castles Condominiums",
+      "address": "2442 W. Greenleaf Ave., Chicago, IL 60645",
+      "note": "Visitors are invited to see the extravagant indoor pool and wander the front courtyards.",
+      "siteType": "Residential",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recvykdc4aPNgBlCB",
+      "coords": [
+        42.009677,
+        -87.690957
+      ]
+    },
+    {
+      "id": "recMAHAAZU3jBOcZD",
+      "name": "Perkins&Will",
+      "address": "410 N. Michigan Ave., Suite 1600, Chicago, IL 60611",
+      "note": "Brief staff-led guided tours will be offered of the firm's studio space, model shop, and social spaces on floors 16, 17, and 18.",
+      "siteType": "Architecture or design studio",
+      "satHours": "10am-2pm",
+      "sunHours": "10am-2pm",
+      "hours": "Sat 10am-2pm; Sun 10am-2pm",
+      "url": "https://openhousechicago.org/sites/recMAHAAZU3jBOcZD",
+      "coords": [
+        41.889952,
+        -87.624444
+      ]
+    },
+    {
+      "id": "recOR6FVn3HCiZ1zO",
+      "name": "Pru",
+      "address": "180 N. Stetson Ave., Chicago, IL 60601",
+      "note": "Visitors will have access to the indoor amenity lounge and rooftop terrace located on the 11th floor of One Pru, weather permitting.",
+      "siteType": "Commercial",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recOR6FVn3HCiZ1zO",
+      "coords": [
+        41.884591,
+        -87.623187
+      ]
+    },
+    {
+      "id": "reccKiqVCYutXnjfG",
+      "name": "Pui Tak Center",
+      "address": "2216 S. Wentworth Ave., Chicago, IL 60616",
+      "note": "Visitors will head to the third floor to view displays, access the balcony for a unique view of Chinatown, touch original terra cotta, and hear short talks about the building, terra cotta, Chinatown's history, and Pui Tak Center services.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-4pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/reccKiqVCYutXnjfG",
+      "coords": [
+        41.852365,
+        -87.632053
+      ]
+    },
+    {
+      "id": "recwIq77Ued1pWx8V",
+      "name": "Pullman National Historical Park",
+      "address": "610 E. 111th Street, Chicago, IL 60628",
+      "note": "Temporary exhibits on display: \n\nHouse Histories of Pullman: Step back in time and get to know past residents by tracing the history of original Pullman-built homes. \n\nA Grave of Stone and Iron: Digging up what we know, and what we don't, about what lies beneath the surface of George Pullman's grave at Graceland Cemetery.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/recwIq77Ued1pWx8V",
+      "coords": [
+        41.6943201,
+        -87.6107513
+      ]
+    },
+    {
+      "id": "recekrQp7h2mGYAj6",
+      "name": "Pullman State Historic Site, Illinois State Museum and Historic Sites",
+      "address": "610 E. 111th St., Chicago, IL 60628",
+      "note": "Pullman State Historic Site staff will offer visitors a rare glimpse inside the remaining walls of the Rear Erecting Shops. Guides will connect the past and present by providing historical context, explaining current restoration efforts, and facilitating interactive activities for visitors to learn more about the work of historic industrial archeology. Visitors must wear hard-soled, closed-toe footwear; hard hats will be provided.\n\nNew in 2026: Historic Industrial Archaeology at the Pullman Car Works.  Current and recent historic industrial archaeology work will be featured, including activities for families.   \n\nCurator-led tours will begin at the east entry plaza of the Pullman State Historic Site parking lot. The co-located Pullman National Historical Park visitor center will also be open for visitors.\n\nPlease note this site does not allow priority access.",
+      "siteType": "Other",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recekrQp7h2mGYAj6",
+      "coords": [
+        41.692635,
+        -87.609426
+      ]
+    },
+    {
+      "id": "recj6SdyzFuN4W54T",
+      "name": "Quinn Chapel",
+      "address": "2401 S. Wabash Ave., Chicago, IL 60616",
+      "note": "The main fellowship hall on the first floor will be accessible as well as the historic auditorium on the second floor. Quinn Chapel will offer a self-guided, station by station experience for 50 visitors at a time.\n\n\n<p>On Saturday, October 17, only, the GraceNote Collective gospel choir will provide 15 minute musical presentations at 1:30pm, 2:00pm, 2:30pm, and 3:00pm. </p>",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "1-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 1-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recj6SdyzFuN4W54T",
+      "coords": [
+        41.849082,
+        -87.625072
+      ]
+    },
+    {
+      "id": "recvS26EzXjYbMUKk",
+      "name": "Revolution Workshop",
+      "address": "3410 W. Lake St.  , Chicago, IL 60624",
+      "note": "Revolution Workshop's entire space will be open to visitors, with staff on hand to answer questions.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-4pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-4pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recvS26EzXjYbMUKk",
+      "coords": [
+        41.884807,
+        -87.711756
+      ]
+    },
+    {
+      "id": "rec6nI12XYk5wTP3S",
+      "name": "Ridge Historical Society",
+      "address": "10621 S. Seeley Ave., Chicago, IL 60643",
+      "note": "Visitors can view the grounds from the Seeley Avenue entrance and down to Longwood Drive, step out onto the terraces, and imagine what life was like along Longwood Drive, home to many mansions built above the Blue Island Ridge.\n\nThree first floor spaces will be open to view: the entry hall, dining room, and living room, which is the main gallery space featuring the \"50th Anniversary of the Ridge Historic District\u201d exhibit. Visitors can pickup a guide to historic buildings in the Beverly - Morgan Park for a self guided tour, and short exterior tours will be offered every half hour.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec6nI12XYk5wTP3S",
+      "coords": [
+        41.700534,
+        -87.6719
+      ]
+    },
+    {
+      "id": "recN7kmsscjGNFvAG",
+      "name": "Right Bee Cider",
+      "address": "1830 N. Kostner Ave., Chicago, IL 60639",
+      "note": "Guests can explore the cidery at their own pace, with occasional tours offered to larger groups.",
+      "siteType": "Libations (breweries, distilleries, etc)",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recN7kmsscjGNFvAG",
+      "coords": [
+        41.914402008539014,
+        -87.73641644000664
+      ]
+    },
+    {
+      "id": "recKTxVtxjytO8oOn",
+      "name": "Saint Ignatius College Prep",
+      "address": "1076 W. Roosevelt Rd., Chicago, IL 60608",
+      "note": "Visitors are invited to tour the ground floor of the main 1869 building, and the fourth-floor Grand Gallery, Brunswick Room and the Foglia Library.",
+      "siteType": "Other",
+      "satHours": "10am-12pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 10am-12pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recKTxVtxjytO8oOn",
+      "coords": [
+        41.867248,
+        -87.654087
+      ]
+    },
+    {
+      "id": "rec63xvUyH9qbj5wU",
+      "name": "Sears Sunken Garden",
+      "address": "3330 W. Arthington St., Chicago, IL 60624",
+      "note": "The site will be open for self-guided exploration, and four daily guided tours will be offered beginning at 11 a.m., with the last tour at 2 p.m. Tours will include all campus spaces, including the Sears Sunken Garden, the Powerhouse, and Nichols Tower.\n\nVisitors may also pick up a map at the Sunken Garden (weather permitting) or at the Tower and complete a self-guided tour of the three sites.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/rec63xvUyH9qbj5wU",
+      "coords": [
+        41.8703843,
+        -87.7123581
+      ]
+    },
+    {
+      "id": "recY8dRzvbJUyb8xo",
+      "name": "Second Presbyterian Church",
+      "address": "1936 S. Michigan Ave., Chicago, IL 60616",
+      "note": "The sanctuary will be open for both self-guided and \"station\" tours, where visitors will hear more about the site from trained docents at different points in the sanctuary.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 10am-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recY8dRzvbJUyb8xo",
+      "coords": [
+        41.855758,
+        -87.62435
+      ]
+    },
+    {
+      "id": "recO2cL4P4N5ZIhFq",
+      "name": "Segundo Ruiz Belvis Cultural Center",
+      "address": "4048 W. Armitage Ave., Chicago, IL 60639",
+      "note": "The main venue space, which once operated as a theater, will be open to visitors. Enjoy periodic musical performance.",
+      "siteType": "Cultural/community",
+      "satHours": "12-4pm",
+      "sunHours": "12-4pm",
+      "hours": "Sat 12-4pm; Sun 12-4pm",
+      "url": "https://openhousechicago.org/sites/recO2cL4P4N5ZIhFq",
+      "coords": [
+        41.91725371234442,
+        -87.72845744447447
+      ]
+    },
+    {
+      "id": "rec0kMMEONNOh6zUL",
+      "name": "Seventeenth Church of Christ, Scientist",
+      "address": "55 E. Wacker Dr., Chicago, IL 60601",
+      "note": "Visitors may explore the lobby and main sanctuary space.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-4pm",
+      "sunHours": "12-4pm",
+      "hours": "Sat 10am-4pm; Sun 12-4pm",
+      "url": "https://openhousechicago.org/sites/rec0kMMEONNOh6zUL",
+      "coords": [
+        41.887039,
+        -87.625951
+      ]
+    },
+    {
+      "id": "recHcJgSdlqwopn9P",
+      "name": "Skidmore, Owings & Merrill (SOM)",
+      "address": "224 S. Michigan Ave., Suite 1000, Chicago, IL 60604",
+      "note": "SOM Chicago will open its doors on Saturday to guided tours. Tours will feature the 10th floor studios as well as the Interiors and Materials library on the 9th floor.",
+      "siteType": "Architecture or design studio",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recHcJgSdlqwopn9P",
+      "coords": [
+        41.878842,
+        -87.624679
+      ]
+    },
+    {
+      "id": "reccQEcMvFZ8tRvSd",
+      "name": "Smart Museum of Art, The University of Chicago",
+      "address": "5550 S. Greenwood Ave. , Chicago, IL 60637",
+      "note": "Lobby galleries and main galleries will be open. Tours are self-guided through Bloomberg Connects and print guides.",
+      "siteType": "Fine arts",
+      "satHours": "10am-4:30pm",
+      "sunHours": "10am-4:30pm",
+      "hours": "Sat 10am-4:30pm; Sun 10am-4:30pm",
+      "url": "https://openhousechicago.org/sites/reccQEcMvFZ8tRvSd",
+      "coords": [
+        41.793579670147906,
+        -87.60019810356339
+      ]
+    },
+    {
+      "id": "recGNGNzLflAqzsPR",
+      "name": "Smashed Plastic Record Pressing",
+      "address": "4200 W. Diversey Ave., Chicago, IL 60639",
+      "note": "The pressing room, listening room, and packaging room will be open and available to tour. One or two presses will be running so that participants can get a full demonstration of how records are produced, quality-controlled, and assembled. Owners will be on-site to answer questions about the facility and the building history.",
+      "siteType": "Commercial",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recGNGNzLflAqzsPR",
+      "coords": [
+        41.931846,
+        -87.73249
+      ]
+    },
+    {
+      "id": "recTjp4f8zuk25fjo",
+      "name": "South Side Sanctuary",
+      "address": "4702 S. Martin Luther King Jr. Dr. , Chicago, IL 60615",
+      "note": "South Side Sanctuary is a 13,000 square foot outdoor community campus that demonstrates how vacant urban land can be transformed into vibrant civic infrastructure. For decades, neighbors carved walking paths through the empty lot. Today, those same paths are reimagined and lined with art walls, open-air classrooms, native gardens, performance space, and sensory landscaping that honors the quiet history of movement through space.\n\nThe site features a public stage, pollinator-filled living fences, free community Wi-Fi, and flexible outdoor seating. Weekly programs include farmers markets, youth showcases, wellness classes, and live art activations.\n\nThe site was designed and developed by Cecilia Cuff and The Nascent Group in partnership with Future Firm Architects as a living laboratory for equitable development, public health, entrepreneurship, arts and culture, and community gathering. Since opening, the space has welcomed over 25,000 visitors and supported over 500 minority owned small businesses.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recTjp4f8zuk25fjo",
+      "coords": [
+        41.809207977376175,
+        -87.61722800356263
+      ]
+    },
+    {
+      "id": "recRvs6ubG9FXXdoC",
+      "name": "St. Andrew Greek Orthodox Church",
+      "address": "5649 N. Sheridan Rd., Chicago, IL 60660",
+      "note": "The main church and chapel will be open to visitors. Self guided tours and informational signage will be placed throughout the space.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 10am-5pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recRvs6ubG9FXXdoC",
+      "coords": [
+        41.98504067396736,
+        -87.65464268878512
+      ]
+    },
+    {
+      "id": "recEPxaPNbvxPFvcw",
+      "name": "St. Benedict the African Roman Catholic Church",
+      "address": "6559 S. Stewart Ave., Chicago, IL 60621",
+      "note": "The main church will be open for touring.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-3:30pm",
+      "sunHours": "10am-3:30pm",
+      "hours": "Sat 10am-3:30pm; Sun 10am-3:30pm",
+      "url": "https://openhousechicago.org/sites/recEPxaPNbvxPFvcw",
+      "coords": [
+        41.774652,
+        -87.634441
+      ]
+    },
+    {
+      "id": "rec2foTOpvq4JJNVL",
+      "name": "St. Helen Roman Catholic Church",
+      "address": "2315 W. Augusta Blvd., Chicago, IL 60622",
+      "note": "The main floor of the church will be open to visitors for self-guided tours with stations describing the architectural elements of the church.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec2foTOpvq4JJNVL",
+      "coords": [
+        41.899259,
+        -87.684644
+      ]
+    },
+    {
+      "id": "recg2PQ090Iikcsh8",
+      "name": "St. James Episcopal Cathedral",
+      "address": "65 E. Huron St., Chicago, IL 60611",
+      "note": "The Cathedral and St. Andrew's Chapel (entrance on Huron) will both be open.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 10am-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recg2PQ090Iikcsh8",
+      "coords": [
+        41.894515165503584,
+        -87.62576263098362
+      ]
+    },
+    {
+      "id": "recAFM696vsSIPEB5",
+      "name": "St. Jerome Roman Catholic Church",
+      "address": "1709 W. Lunt Ave., Chicago, IL 60626",
+      "note": "Visitors are invited to explore the church's vestibule and nave, with available handouts discussing the building's history as well as the representations of the paintings, sculptures and stained glass windows. Volunteers will be present to answer questions and provide guided tours upon request.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "1:30-5pm",
+      "hours": "Sat 10am-5pm; Sun 1:30-5pm",
+      "url": "https://openhousechicago.org/sites/recAFM696vsSIPEB5",
+      "coords": [
+        42.008539234095245,
+        -87.67246914483971
+      ]
+    },
+    {
+      "id": "recLK2EeUyv9nKh3h",
+      "name": "St. Mary of Perpetual Help Roman Catholic Church",
+      "address": "1039 W. 32nd St., Chicago, IL 60608",
+      "note": "The Catacomb Cafe is a welcoming gathering space located on the lower level of St. Mary of Perpetual Help. Purchase self-serve specialty coffee, tea, and gourmet pastries from Dolce Arte and relax awhile after your site visit.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-3pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 10am-3pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recLK2EeUyv9nKh3h",
+      "coords": [
+        41.836132,
+        -87.652277
+      ]
+    },
+    {
+      "id": "recCZeqDzfrQvWFFj",
+      "name": "St. Mary of the Lake Roman Catholic Church",
+      "address": "4200 N. Sheridan Rd., Chicago, IL 60613",
+      "note": "There will be options for both self-guided and guided tours of the apse, nave, and chapel.\n\nThe main church and side chapel will be open. A QR code will link to additional information about the site. Tours are largely self-guided but volunteers will be on hand to answer questions.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "12-4pm",
+      "sunHours": "2-5pm",
+      "hours": "Sat 12-4pm; Sun 2-5pm",
+      "url": "https://openhousechicago.org/sites/recCZeqDzfrQvWFFj",
+      "coords": [
+        41.958817927064196,
+        -87.65525670398375
+      ]
+    },
+    {
+      "id": "recz9WQAOh2KzmVYO",
+      "name": "St. Michael in Old Town Roman Catholic Church",
+      "address": "1633 N. Cleveland Ave., Chicago, IL 60614",
+      "note": "The church will be open for self-guided exploration.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-2:30pm; 4-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-2:30pm; 4-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recz9WQAOh2KzmVYO",
+      "coords": [
+        41.91209598574692,
+        -87.64091673401596
+      ]
+    },
+    {
+      "id": "recnCDxs5Tfcm79bs",
+      "name": "St. Nicholas Ukrainian Catholic Cathedral",
+      "address": "835 N. Oakley Blvd., Chicago, IL 60622",
+      "note": "The Cathedral main floor and choir loft will be open to the public. Docents will be available to answer questions or to give guided tours. \n\nOn Sunday, Divine Liturgy will be celebrated and access to the entire first floor will be limited until after the last service ends at around 1:00pm.\n\nVisit the main cathedral floor, the choir loft, and the lower level hall with restrooms. There is no entry into the Sacristy.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recnCDxs5Tfcm79bs",
+      "coords": [
+        41.896948,
+        -87.684313
+      ]
+    },
+    {
+      "id": "rec5pSKSTmvt66w5A",
+      "name": "St. Paul Roman Catholic Church",
+      "address": "2127 W. 22nd Pl., Chicago, IL 60608",
+      "note": "The church, rectory, hall, and courtyard will be available to tour in addition to the coffee shop Holy Grounds.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "1-4pm",
+      "hours": "Sat 10am-5pm; Sun 1-4pm",
+      "url": "https://openhousechicago.org/sites/rec5pSKSTmvt66w5A",
+      "coords": [
+        41.850991,
+        -87.678485
+      ]
+    },
+    {
+      "id": "rec0njAkjaVhKMJ52",
+      "name": "St. Pauls United Church of Christ",
+      "address": "2335 N. Orchard St., Chicago, IL 60614",
+      "note": "View the Sanctuary/Narthex space, the gymnasium, Wieboldt Hall, the Chapel, and reception room. There will be displays, brochures, and self-guided tour information, with the possibility of guided tours.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rec0njAkjaVhKMJ52",
+      "coords": [
+        41.924811,
+        -87.646184
+      ]
+    },
+    {
+      "id": "recGQVHbGtKm89Ytg",
+      "name": "St. Thomas the Apostle Roman Catholic Church",
+      "address": "5472 S. Kimbark Ave., Chicago, IL 60615",
+      "note": "Visitors may take a self-guided tour of the main floor, however the sanctuary and choir loft will be closed to the public.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-4pm",
+      "sunHours": "11am-5pm",
+      "hours": "Sat 10am-4pm; Sun 11am-5pm",
+      "url": "https://openhousechicago.org/sites/recGQVHbGtKm89Ytg",
+      "coords": [
+        41.795872,
+        -87.594973
+      ]
+    },
+    {
+      "id": "rec3VoXgiYzeAP5ce",
+      "name": "Stantec Architecture",
+      "address": "224 S. Michigan Ave. , Chicago, IL 60604",
+      "note": "Visitors are invited to explore Stantec's 14th-floor studio through a self-guided experience showcasing the firm's design culture, project work, and collaborative workspace. Volunteers stationed throughout the office will be available to answer questions, share insights about Stantec's projects and practice areas, and provide background on the history of both the studio and the Railway Exchange Building.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/rec3VoXgiYzeAP5ce",
+      "coords": [
+        41.87875596723724,
+        -87.62497901916504
+      ]
+    },
+    {
+      "id": "recGRqvchO6dOW95e",
+      "name": "Starling by Duo/.",
+      "address": "3243 W. 16th St., Chicago, IL 60623",
+      "note": "Guests will have access to explore the building on a self-guided tour.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-2pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-2pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recGRqvchO6dOW95e",
+      "coords": [
+        41.85892939536532,
+        -87.70707697116431
+      ]
+    },
+    {
+      "id": "recg3XX9UzLKZH4Dr",
+      "name": "Starshaped Press",
+      "address": "4636 N. Ravenswood Ave., Unit #103, Chicago, IL 60640",
+      "note": "See a working letterpress studio and the materials that make this happen, ranging from the small tools and extensive wood and metal type collection, to prints and books. A Chicago-made press will be in operation and so guests can take a souvenir print. Existing prints and stationery are also available for purchase.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recg3XX9UzLKZH4Dr",
+      "coords": [
+        41.966123,
+        -87.674798
+      ]
+    },
+    {
+      "id": "recOQo9UAucLMqu79",
+      "name": "Stony Island Arts Bank",
+      "address": "6760 S. Stony Island Ave., Chicago, IL 60649",
+      "note": "Visit the 1st floor atrium and bar and 2nd floor gallery and library.",
+      "siteType": "Cultural/community",
+      "satHours": "12-5pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 12-5pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recOQo9UAucLMqu79",
+      "coords": [
+        41.77167476808856,
+        -87.58688850633636
+      ]
+    },
+    {
+      "id": "recNp5rSz8lLPIFkX",
+      "name": "Sts. Volodymyr & Olha Ukrainian Catholic Church",
+      "address": "739 N. Oakley Blvd., Chicago, IL 60612",
+      "note": "The main level and balcony/choir loft of the church building will be open for self-guided tours. There will be 10-minute talks describing the architecture and iconography given throughout the day.\n\nVisitors are asked not to go beyond the marble stairs leading to the icon screen.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "12-5pm",
+      "sunHours": "1:30-5pm",
+      "hours": "Sat 12-5pm; Sun 1:30-5pm",
+      "url": "https://openhousechicago.org/sites/recNp5rSz8lLPIFkX",
+      "coords": [
+        41.8946922,
+        -87.6855103
+      ]
+    },
+    {
+      "id": "recKyKiaCF6dMPMZ9",
+      "name": "Sulzen Fine Art Studio",
+      "address": "2720 W. St. Georges Ct., 2nd Floor, Chicago, IL 60647",
+      "note": "Visitors will have limited access to the former factory converted to live-work studio space for local artists. Chat with artists about the space and their work.\n\nGet an introduction to the history and architectural remnants of this small neighborhood factory and view historic interior photographs from when the space was used as an airbrush factory.",
+      "siteType": "Other",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recKyKiaCF6dMPMZ9",
+      "coords": [
+        41.921564,
+        -87.696613
+      ]
+    },
+    {
+      "id": "recSLJ0wqDkZoEAss",
+      "name": "Temple Sholom",
+      "address": "3480 N. Lake Shore Dr., Chicago, IL 60657",
+      "note": "Guests may view around the stained glass, roam the hallways, and visit the grand sanctuary.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "2-5pm",
+      "sunHours": "1:30-5pm",
+      "hours": "Sat 2-5pm; Sun 1:30-5pm",
+      "url": "https://openhousechicago.org/sites/recSLJ0wqDkZoEAss",
+      "coords": [
+        41.946105,
+        -87.642013
+      ]
+    },
+    {
+      "id": "recjffSCNspZUi9tt",
+      "name": "The Arts Club of Chicago",
+      "address": "201 E. Ontario St., Chicago, IL 60611",
+      "note": "Come for a self-directed exploration or staff-guided tour of the building. Tours will take place at 11am, 1pm, and 3pm. Visitors are welcome to explore the first floor public galleries, featuring an exhibition of paintings by artist Mernet Larson, as well as the second-floor private member club house and permanent art collection.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recjffSCNspZUi9tt",
+      "coords": [
+        41.893137,
+        -87.622414
+      ]
+    },
+    {
+      "id": "recLqnwnaUZ5JAWPg",
+      "name": "The Auditorium",
+      "address": "50 E. Ida B. Wells Dr., Chicago, IL 60605",
+      "note": "Guests will be able to explore The Auditorium Front of House over all 6 floors. No on-stage or back-stage access. An informational print-out will aid self-guided exploration, highlighting key areas and facts.",
+      "siteType": "Fine arts",
+      "satHours": "10am-12pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-12pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recLqnwnaUZ5JAWPg",
+      "coords": [
+        41.876043,
+        -87.624543
+      ]
+    },
+    {
+      "id": "recJLDd4OOXP9fjBY",
+      "name": "The CheckOut",
+      "address": "4116 N. Clark St., Chicago, IL 60613",
+      "note": "ACM has transformed our popular Sunday afternoon Solo Piano Spotlight concerts into a weekend-long extravaganza for Open House Chicago.  Every fifteen or twenty minutes pianists will perform a wide range of short pieces on our 9 foot concert grand Yamaha piano.   We'll also be on hand to talk about the transformation of the space from a long-empty eyesore to a thriving musical venue including insights into the acoustical treatment.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recJLDd4OOXP9fjBY",
+      "coords": [
+        41.956857171238575,
+        -87.66401134588405
+      ]
+    },
+    {
+      "id": "recS2oUjy5dPsUhxn",
+      "name": "The Chicago Board of Trade Building",
+      "address": "141 W. Jackson Blvd., Chicago, IL 60604",
+      "note": "The first-floor lobby and museum and the vault on the lower level will be open to visitors for self-guided tours.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recS2oUjy5dPsUhxn",
+      "coords": [
+        41.878057,
+        -87.632211
+      ]
+    },
+    {
+      "id": "recBMBW1bkX7BdHJA",
+      "name": "The Cliff Dwellers Club",
+      "address": "200 S. Michigan Ave., Suite #2200, Chicago, IL 60604",
+      "note": "Guests may take a self-guided tour of the 22nd floor club space and terrace, with art and historical artifacts on display. Club members will be on hand to answer questions and speak about the history.",
+      "siteType": "Commercial",
+      "satHours": "10am-4pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-4pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recBMBW1bkX7BdHJA",
+      "coords": [
+        41.879279,
+        -87.624639
+      ]
+    },
+    {
+      "id": "recyZhmDiaxGOsBAk",
+      "name": "The Driehaus Museum's Murphy Auditorium",
+      "address": "50 E. Erie St., Chicago, IL 60611",
+      "note": "Guests will enter through the Murphy Auditorium's street level entrance at 50 E Erie. Please note there are a few stairs once inside the building. An alternative accessible entrance is just west of the main entrance.",
+      "siteType": "Cultural/community",
+      "satHours": "12-5pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 12-5pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recyZhmDiaxGOsBAk",
+      "coords": [
+        41.89437313212454,
+        -87.62626975409194
+      ]
+    },
+    {
+      "id": "recj8zectYqODyA2s",
+      "name": "The Forum",
+      "address": "324 E. 43rd St., Chicago, IL 60653",
+      "note": "Tour the iconic Forum Hall, which embodies 125+ years of South Side history, as it moves towards rehabilitation while enjoying a full program of live musical performances. \n\nQuarter-scale reproductions of the recently discovered opening day scenic backdrops will be on view. Visitors may also tour sections of the West Annex, which reopened in 2026, and engage with community stories playing on the new \"Train of Thoughts\" digital screen.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recj8zectYqODyA2s",
+      "coords": [
+        41.816793,
+        -87.61855
+      ]
+    },
+    {
+      "id": "rec8tPrgLNFG61nkj",
+      "name": "The House of Glunz & The Glunz Tavern",
+      "address": "1206 N. Wells St., Chicago, IL 60610",
+      "note": "Family members will explain the historic artifacts which adorn the walls and ceilings of both The House of Glunz and The Glunz Tavern.",
+      "siteType": "Commercial",
+      "satHours": "12-5pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 12-5pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/rec8tPrgLNFG61nkj",
+      "coords": [
+        41.904035,
+        -87.634666
+      ]
+    },
+    {
+      "id": "rechTWyhiSYd4Hakh",
+      "name": "The Moody Church",
+      "address": "1630 N. Clark St., Chicago, IL 60614",
+      "note": "The main lobby and the Sanctuary will be open for guided tours. If desired, visitors can see the adjacent Memorial Hall.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "Closed",
+      "sunHours": "12-5pm",
+      "hours": "Sat Closed; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/rechTWyhiSYd4Hakh",
+      "coords": [
+        41.911729,
+        -87.632996
+      ]
+    },
+    {
+      "id": "recfOOJK1wqgitZqx",
+      "name": "The Palette & Chisel Academy of Fine Arts",
+      "address": "1012 N. Dearborn St., Chicago, IL 60610",
+      "note": "Painting & Sculpting Demos: Between 10am and 5pm on both days, several teachers and members will be painting and sculpting from live models in the second-floor studio, third floor studio, and coach house studio.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recfOOJK1wqgitZqx",
+      "coords": [
+        41.901013,
+        -87.630151
+      ]
+    },
+    {
+      "id": "recFg5UtzGZEU552I",
+      "name": "The Pittsfield Building",
+      "address": "55 E Washington St, Chicago, IL 60601",
+      "note": "Visit the building's atrium and second floor, enhanced by volunteers guiding people along and offering explanation.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-1pm",
+      "hours": "Sat 10am-5pm; Sun 10am-1pm",
+      "url": "https://openhousechicago.org/sites/recFg5UtzGZEU552I",
+      "coords": [
+        41.88313168324738,
+        -87.62574091349198
+      ]
+    },
+    {
+      "id": "rectOvZhOflGmdoTs",
+      "name": "The Plant",
+      "address": "1400 W. 46th St., Chicago, IL 60609",
+      "note": "<p>Visitors will have a self-guided experience, viewing food production spaces and businesses that are typically not open to the public. The <a href=\"https://www.packingtownmuseum.org/\" target=\"_blank\"><u><strong>Packingtown Museum</strong></u></a>\n\n<p>Food and drink made/grown at The Plant will be available for purchase, and there will be a mini version of the semiannual Reuse-a-Palooza recycle and reuse fair.</p>",
+      "siteType": "Other",
+      "satHours": "10am-4pm",
+      "sunHours": "10am-4pm",
+      "hours": "Sat 10am-4pm; Sun 10am-4pm",
+      "url": "https://openhousechicago.org/sites/rectOvZhOflGmdoTs",
+      "coords": [
+        41.810768,
+        -87.660576
+      ]
+    },
+    {
+      "id": "rec0lOMZaV822lBOf",
+      "name": "The Roof Crop",
+      "address": "1516 W. Carroll Ave., Chicago, IL 60607",
+      "note": "Self-guided tours starting at 10am, with the final entry beginning at 4:30pm. Docents and volunteers will be located throughout the building to guide and answer questions. Visitors will have the opportunity to explore the first and second floor businesses and event spaces, as well as the green roof and greenhouses (weather permitting).",
+      "siteType": "Commercial",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec0lOMZaV822lBOf",
+      "coords": [
+        41.887525,
+        -87.665244
+      ]
+    },
+    {
+      "id": "recpsSiyiT2OJDWRF",
+      "name": "The Wasteshed Chicago",
+      "address": "1754 N. Kimball Ave., Chicago, IL 60647",
+      "note": "The entire shop will be open to the public.",
+      "siteType": "Fine arts",
+      "satHours": "11am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 11am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recpsSiyiT2OJDWRF",
+      "coords": [
+        41.9133022032599,
+        -87.71213153241452
+      ]
+    },
+    {
+      "id": "rec4UOfWLQRCLlh1K",
+      "name": "The Weaving Mill",
+      "address": "1801 N. Spaulding Ave., Chicago, IL 60647",
+      "note": "The Weaving Mill production studio and shop will be open for visitors. Envision Unlimited members will be on site to share information and showcase the handweaving process, with optional guided tours of the industrial weaving process with machine demonstrations at set times (11am, 1pm, 3pm).\n\nThe weaving machines are quite loud and fast, and visitors will be asked to maintain safe distance. Earplugs will be offered to those who would like them.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec4UOfWLQRCLlh1K",
+      "coords": [
+        41.91399271970863,
+        -87.70978457472187
+      ]
+    },
+    {
+      "id": "recHYhZrAC58J75N9",
+      "name": "Third Unitarian Church",
+      "address": "301 N. Mayfield Ave., Chicago, IL 60644",
+      "note": "The grounds, entry area, and sanctuary will be open, with church members on hand to welcome visitors and provide information on the building.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recHYhZrAC58J75N9",
+      "coords": [
+        41.885899,
+        -87.77169
+      ]
+    },
+    {
+      "id": "rec4N0I4hUmSYLuvY",
+      "name": "TimeLine Theatre",
+      "address": "5035 N. Broadway, Chicago, IL 60640",
+      "note": "Most of the facility will be open for exploration with representative in each space to share information. The rehearsal room and theatre may be limited or off access due to production activities during certain times. Optional guided tours, lasting 30-45 minutes will be offered at set times.",
+      "siteType": "Fine arts",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec4N0I4hUmSYLuvY",
+      "coords": [
+        41.9738248,
+        -87.6618953
+      ]
+    },
+    {
+      "id": "recwX2TGlqSEzilyP",
+      "name": "Trinity United Methodist Church",
+      "address": "9848 S. Winchester Ave., Chicago, IL 60643",
+      "note": "Visitors are welcome to tour the education wing, great hall, kitchen, parlor, main sanctuary, chapel, organ loft, and courtyard. A brochure will summarize the more than 150 year history of the Trinity Congregation.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "12-5pm",
+      "hours": "Sat 10am-5pm; Sun 12-5pm",
+      "url": "https://openhousechicago.org/sites/recwX2TGlqSEzilyP",
+      "coords": [
+        41.71408,
+        -87.670812
+      ]
+    },
+    {
+      "id": "recBnLZ0c5rMpV7LL",
+      "name": "UChicago Rockefeller Memorial Chapel",
+      "address": "5850 S. Woodlawn Ave., Chicago, IL 60637",
+      "note": "The chapel will be open to self-guided tours with informational materials provided at the front desk. Guided tours will also be offered.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "12:30-5pm",
+      "hours": "Sat 10am-5pm; Sun 12:30-5pm",
+      "url": "https://openhousechicago.org/sites/recBnLZ0c5rMpV7LL",
+      "coords": [
+        41.788241,
+        -87.596827
+      ]
+    },
+    {
+      "id": "recNh2ZAtfY9mhSHZ",
+      "name": "Ukrainian Institute of Modern Art",
+      "address": "2320 W. Chicago Ave., Chicago, IL 60622",
+      "note": "Both galleries will be open, with each space featuring a different exhibition. Tours are self-guided tour, but a docent will be on hand to answer questions.",
+      "siteType": "Cultural/community",
+      "satHours": "11am-4pm",
+      "sunHours": "11am-4pm",
+      "hours": "Sat 11am-4pm; Sun 11am-4pm",
+      "url": "https://openhousechicago.org/sites/recNh2ZAtfY9mhSHZ",
+      "coords": [
+        41.895872,
+        -87.685212
+      ]
+    },
+    {
+      "id": "recZ5RJByKf8BzaTB",
+      "name": "Ukrainian National Museum",
+      "address": "2249 W. Superior St., Chicago, IL 60612",
+      "note": "The museum will be open for self-guided viewing with station-by-station information.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recZ5RJByKf8BzaTB",
+      "coords": [
+        41.894567,
+        -87.684071
+      ]
+    },
+    {
+      "id": "recowTrBglMk7JfJp",
+      "name": "United Church of Hyde Park",
+      "address": "1448 E. 53rd St., Chicago, IL 60615",
+      "note": "Visitors will be provided pamphlets about the architecture and church history and can explore the sanctuary and fellowship hall. Church members will be available to orient people to aspects of the sanctuary and answer questions.\n\nVisitors are welcome to join the 11 a.m. Sunday worship, but the church requests that those coming to walk around the sanctuary wait until 1pm.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-5pm",
+      "sunHours": "1-5pm",
+      "hours": "Sat 10am-5pm; Sun 1-5pm",
+      "url": "https://openhousechicago.org/sites/recowTrBglMk7JfJp",
+      "coords": [
+        41.799695,
+        -87.590153
+      ]
+    },
+    {
+      "id": "recVzrEJFpZCm04uH",
+      "name": "Uptown Theatre",
+      "address": "4816 N Broadway, Chicago, IL 60640",
+      "note": "Visitors will enter though the main lobby and take a short guided tour of the auditorium.\n<b>\n<p>No photography will be permitted.</p>",
+      "siteType": "Fine arts",
+      "satHours": "10am-3pm",
+      "sunHours": "10am-3pm",
+      "hours": "Sat 10am-3pm; Sun 10am-3pm",
+      "url": "https://openhousechicago.org/sites/recVzrEJFpZCm04uH",
+      "coords": [
+        41.969505,
+        -87.659713
+      ]
+    },
+    {
+      "id": "recFDRCehVHWUOaEG",
+      "name": "Walt Disney House & Birthplace",
+      "address": "2156 N. Tripp Ave., Chicago, IL 60639",
+      "note": "Visitors will be permitted to take a self-guided tour on the first floor for 10 minutes and the second floor for 10 minutes, and then may access the gift garage through the back stairs. There will be information in each room and volunteers on hand to provide an abbreviated guided tour experience and answer any questions.",
+      "siteType": "Residential",
+      "satHours": "12-4pm",
+      "sunHours": "12-4pm",
+      "hours": "Sat 12-4pm; Sun 12-4pm",
+      "url": "https://openhousechicago.org/sites/recFDRCehVHWUOaEG",
+      "coords": [
+        41.9206321,
+        -87.7356432
+      ]
+    },
+    {
+      "id": "recz20CXjYtaCgokl",
+      "name": "Westtown Center",
+      "address": "1801 N. Spaulding Ave., Chicago, IL 60647",
+      "note": "Visitors are welcome to explore the program space, meet members, and make artwork with them. The art on display will also be available for sale.",
+      "siteType": "Cultural/community",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recz20CXjYtaCgokl",
+      "coords": [
+        41.9140207,
+        -87.7123702
+      ]
+    },
+    {
+      "id": "recwQQjIlcIiAki4Y",
+      "name": "Wheeler Mansion",
+      "address": "2020 S. Calumet Ave., Chicago, IL 60616",
+      "note": "Visitors may take a self-guided tour of the entire facility, with rooms open based on availability. There will also be chef-led cooking demonstrations and vendors onsite selling items. Any questions about the hotel or its renovation will be fielded by staff and members of the design and construction team.",
+      "siteType": "Other",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recwQQjIlcIiAki4Y",
+      "coords": [
+        41.854916,
+        -87.619544
+      ]
+    },
+    {
+      "id": "recYsvAGG3cDvM7kC",
+      "name": "Wild Blossom Meadery & Winery",
+      "address": "9030 S. Hermitage Ave., Chicago, IL 60643",
+      "note": "Visit the Meadery to learn about the production and beekeeping, and to enjoy tastings.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recYsvAGG3cDvM7kC",
+      "coords": [
+        41.729566,
+        -87.66713
+      ]
+    },
+    {
+      "id": "rec2rBE4kclEVI5mD",
+      "name": "Wild Mile",
+      "address": "905 W. Eastman St., Chicago, IL 60642",
+      "note": "The entire boardwalk will be open for exploration, roughly 1/8 of a mile accessible from Eastman Street behind the REI store. Urban Rivers volunteers will give tours every 60 minutes, covering the site's history, design, environmental impact, and much more. Families can also enjoy a table activity at the start of the boardwalk.",
+      "siteType": "Other",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/rec2rBE4kclEVI5mD",
+      "coords": [
+        41.9066614,
+        -87.6538082
+      ]
+    },
+    {
+      "id": "recn36rtkIFB5S3q5",
+      "name": "Willie Dixon's Blues Heaven Foundation (Chess Records)",
+      "address": "2120 S. Michigan Ave., Chicago, IL 60616",
+      "note": "The first floor will be open for guests to enjoy music recorded in the historic Chess Records studio. Guests can also view exhibits of music memorabilia and a brief video presentation about the Chess Records building and Willie Dixon\u2019s Blues Heaven Foundation.",
+      "siteType": "Cultural/community",
+      "satHours": "12-4pm",
+      "sunHours": "12-4pm",
+      "hours": "Sat 12-4pm; Sun 12-4pm",
+      "url": "https://openhousechicago.org/sites/recn36rtkIFB5S3q5",
+      "coords": [
+        41.853614,
+        -87.624034
+      ]
+    },
+    {
+      "id": "recUJWIx9YgBmynJn",
+      "name": "Windy City Bird Lab",
+      "address": "1426 W. Washington Blvd., Rear Unit , Chicago, IL 60607",
+      "note": "Visitors may explore the Lab to learn about efforts to study and advocate for local bird populations, while viewing details of the adaptive reuse.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "10am-5pm",
+      "hours": "Sat 10am-5pm; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/recUJWIx9YgBmynJn",
+      "coords": [
+        41.8831244,
+        -87.6661465
+      ]
+    },
+    {
+      "id": "reciEDST7oS7yUpUC",
+      "name": "Woman's Athletic Club of Chicago",
+      "address": "626 N. Michigan Ave., Chicago, IL 60611",
+      "note": "The 2nd floor, 4th floor, and 7th floors will be open for self-guided tours. Each floor will have informational displays, with team members stationed to assist and answer questions. Visitors should anticipate taking elevators to the 7th floor and then using the stairwells to work their way down.",
+      "siteType": "Other",
+      "satHours": "Closed",
+      "sunHours": "10am-5pm",
+      "hours": "Sat Closed; Sun 10am-5pm",
+      "url": "https://openhousechicago.org/sites/reciEDST7oS7yUpUC",
+      "coords": [
+        41.893456,
+        -87.624325
+      ]
+    },
+    {
+      "id": "reczKCAkaxSOgcfeF",
+      "name": "Working Bikes",
+      "address": "2434 S. Western Ave., Chicago, IL 60608",
+      "note": "Visitors will enter through a new accessible entrance on 24th Place and can peruse public areas until the next guided tour of the 3-story facility plus rooftop. Groups of 10-15 will spend 20-30 minutes walking through the warehouse and learning about the history of the space and the organization.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/reczKCAkaxSOgcfeF",
+      "coords": [
+        41.847345,
+        -87.685728
+      ]
+    },
+    {
+      "id": "recFBWMtqGX3G6TlE",
+      "name": "Zen Buddhist Temple",
+      "address": "1710 W. Cornelia Ave., Chicago, IL 60657",
+      "note": "The first floor Sangha Hall and second floor Main Buddha Hall will be open.",
+      "siteType": "Sacred spaces (churches, synagogues, temples)",
+      "satHours": "10am-1pm; 2-5pm",
+      "sunHours": "2-5pm",
+      "hours": "Sat 10am-1pm; 2-5pm; Sun 2-5pm",
+      "url": "https://openhousechicago.org/sites/recFBWMtqGX3G6TlE",
+      "coords": [
+        41.945168,
+        -87.671735
+      ]
+    },
+    {
+      "id": "recyY3ItZBDMXZOOq",
+      "name": "Zhou B Art Center",
+      "address": "1029 W. 35th St., Chicago, IL 60616",
+      "note": "All five floors of our center will be available for guests to explore, including exhibition spaces on the first two floors. The 2nd floor will open after 1pm, with an exhibit on Hispanic Heritage on display. The lower level, 3rd, and 4th floors have artist studios which guests are free to visit if the artist has their studio open.",
+      "siteType": "Commercial",
+      "satHours": "10am-5pm",
+      "sunHours": "Closed",
+      "hours": "Sat 10am-5pm; Sun Closed",
+      "url": "https://openhousechicago.org/sites/recyY3ItZBDMXZOOq",
+      "coords": [
+        41.830584,
+        -87.652312
+      ]
+    }
+  ]
+}

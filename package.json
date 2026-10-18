@@ -1,0 +1,8 @@
+{
+  "name": "chicago-ohc",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes serve . -p 8765",
+    "build:sites": "python scripts/build_sites_json.py"
+  }
+}

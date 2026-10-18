@@ -1,15 +1,33 @@
+import {
+  isOpenNow,
+  isOpenOnTabDay,
+  tabMatchesChicagoToday,
+} from "./js/hours.js";
+import { renderNearbyMap } from "./js/map.js";
+
 const STORAGE_PREFIX = "ohc26:";
 const WALK_MIN_PER_MILE = 15;
 const EARTH_RADIUS_MI = 3958.8;
+const NEARBY_LIMIT = 10;
 
 /** @type {{ days: Record<string, Stop[]>, backupByDay: Record<string, Stop[]> }} */
 let DATA = { days: { sat: [], sun: [] }, backupByDay: { sat: [], sun: [] } };
 
-/** @typedef {{ type?: string, name: string, time?: string, duration?: string, note?: string, priority?: string, address?: string, hours?: string, url?: string, coords?: [number, number] }} Stop */
+/** @type {Array<DirectorySite>} */
+let DIRECTORY = [];
+
+/** @typedef {{ type?: string, name: string, time?: string, duration?: string, note?: string, priority?: string, address?: string, hours?: string, url?: string, coords?: [number, number], satHours?: string, sunHours?: string }} Stop */
+
+/** @typedef {{ id: string, name: string, address: string, note: string, siteType?: string, satHours: string, sunHours: string, hours: string, url: string, coords: [number, number] }} DirectorySite */
 
 let day = "sat";
 /** @type {[number, number] | null} */
 let position = null;
+
+const isDev =
+  location.hostname === "localhost" ||
+  location.hostname === "127.0.0.1" ||
+  location.search.includes("dev=1");
 
 function lsGet(key) {
   return localStorage.getItem(STORAGE_PREFIX + key);
@@ -23,21 +41,21 @@ function loadPrefs() {
   const savedDay = lsGet("day");
   if (savedDay === "sat" || savedDay === "sun") day = savedDay;
 
-  const theme = lsGet("theme") || "system";
-  applyTheme(theme);
+  applyTheme(lsGet("theme") || "system");
 
-  const includeVisited = lsGet("includeVisited") === "1";
-  const incEl = document.getElementById("includeVisited");
-  if (incEl) incEl.checked = includeVisited;
+  const inc = document.getElementById("includeVisited");
+  const openDay = document.getElementById("onlyOpenDay");
+  const now = document.getElementById("openNow");
+  if (inc) inc.checked = lsGet("includeVisited") === "1";
+  if (openDay) openDay.checked = lsGet("onlyOpenDay") !== "0";
+  if (now) now.checked = lsGet("openNow") === "1";
 }
 
 function applyTheme(mode) {
   const root = document.documentElement;
-  if (mode === "system") {
-    root.removeAttribute("data-theme");
-  } else {
-    root.setAttribute("data-theme", mode);
-  }
+  if (mode === "system") root.removeAttribute("data-theme");
+  else root.setAttribute("data-theme", mode);
+
   const meta = document.getElementById("themeColorMeta");
   if (meta) {
     const dark =
@@ -84,6 +102,32 @@ function isDone(stop) {
   return localStorage.getItem(visitKey(stop.name)) === "1";
 }
 
+function siteIdFromUrl(url) {
+  const m = String(url || "").match(/sites\/([^/?#]+)/);
+  return m ? m[1] : "";
+}
+
+/** Sites already on today's itinerary or static backup cards — skip in nearby directory. */
+function scheduledKeys() {
+  const keys = new Set();
+  const add = (list) => {
+    for (const s of list) {
+      if (s.type === "break") continue;
+      keys.add(s.name);
+      const id = siteIdFromUrl(s.url);
+      if (id) keys.add(id);
+    }
+  };
+  add(DATA.days[day] || []);
+  add(DATA.backupByDay[day] || []);
+  return keys;
+}
+
+function isScheduledDirectorySite(site) {
+  const keys = scheduledKeys();
+  return keys.has(site.name) || keys.has(site.id);
+}
+
 function toggleVisited(name) {
   const k = visitKey(name);
   localStorage.setItem(k, localStorage.getItem(k) === "1" ? "0" : "1");
@@ -113,14 +157,45 @@ function haversineMi(a, b) {
 function distanceHtml(stop) {
   if (!position || !stop.coords) return "";
   const d = haversineMi(position, stop.coords);
-  const walkMin = Math.round(d * WALK_MIN_PER_MILE);
-  return ` · <span class="distance">~${d.toFixed(1)} mi · ~${walkMin} min walk*</span>`;
+  return ` · <span class="distance">~${d.toFixed(1)} mi · ~${Math.round(d * WALK_MIN_PER_MILE)} min walk*</span>`;
 }
 
-function allSitesForDay(includeBackups = true) {
-  const main = DATA.days[day] || [];
-  const backups = includeBackups ? DATA.backupByDay[day] || [] : [];
-  return [...main, ...backups].filter((s) => s.coords);
+function nearbyCandidates() {
+  const onlyOpenDay = document.getElementById("onlyOpenDay")?.checked;
+  const openNow = document.getElementById("openNow")?.checked;
+  const includeVisited = document.getElementById("includeVisited")?.checked;
+
+  let sites = DIRECTORY.filter((s) => !isScheduledDirectorySite(s));
+
+  if (onlyOpenDay) sites = sites.filter((s) => isOpenOnTabDay(s, day));
+  if (openNow) {
+    if (tabMatchesChicagoToday(day)) {
+      sites = sites.filter((s) => isOpenNow(s, day));
+    }
+  }
+  if (!includeVisited) sites = sites.filter((s) => !isDone(s));
+
+  if (position) {
+    sites.sort(
+      (a, b) => haversineMi(position, a.coords) - haversineMi(position, b.coords)
+    );
+  }
+  return sites.slice(0, NEARBY_LIMIT);
+}
+
+function directoryAsCard(site) {
+  const d = position ? haversineMi(position, site.coords) : null;
+  return {
+    name: site.name,
+    address: site.address,
+    note: site.note || site.siteType || "",
+    hours: site.hours,
+    url: site.url,
+    coords: site.coords,
+    priority: "backup",
+    time: d != null ? `~${d.toFixed(1)} mi away` : "Nearby",
+    duration: d != null ? `~${Math.round(d * WALK_MIN_PER_MILE)} min walk*` : "",
+  };
 }
 
 function getNearby() {
@@ -129,7 +204,7 @@ function getNearby() {
     el.textContent = "Your browser does not support location access.";
     return;
   }
-  el.textContent = "Requesting location permission…";
+  el.innerHTML = '<p class="muted">Requesting location permission…</p>';
   navigator.geolocation.getCurrentPosition(
     (pos) => {
       position = [pos.coords.latitude, pos.coords.longitude];
@@ -137,10 +212,10 @@ function getNearby() {
       renderNearby();
     },
     (err) => {
-      el.textContent =
+      el.innerHTML =
         err.code === 1
-          ? "Location permission denied. You can still use the Directions links."
-          : "Could not determine location. Try again outdoors or check location settings.";
+          ? "<p class='muted'>Location permission denied. You can still use Directions on each card.</p>"
+          : "<p class='muted'>Could not determine location. Try again outdoors.</p>";
     },
     { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 }
   );
@@ -148,28 +223,55 @@ function getNearby() {
 
 function renderNearby() {
   const el = document.getElementById("nearResults");
-  if (!position) return;
+  const mapWrap = document.getElementById("nearMapWrap");
+  if (!position) {
+    if (mapWrap) mapWrap.classList.add("hidden");
+    return;
+  }
 
-  const includeVisited = document.getElementById("includeVisited")?.checked;
-  let sites = allSitesForDay(true);
-  if (!includeVisited) sites = sites.filter((s) => !isDone(s));
+  const sites = nearbyCandidates();
+  const openNowOn = document.getElementById("openNow")?.checked;
+  const onOhcDay = tabMatchesChicagoToday(day);
+  let filterNote =
+    "Other Open House sites near you (not on today’s schedule). Full cards — same as backups below.";
+  if (document.getElementById("onlyOpenDay")?.checked) {
+    filterNote += ` Showing sites open ${day === "sat" ? "Saturday" : "Sunday"}.`;
+  }
+  if (openNowOn && !onOhcDay) {
+    filterNote +=
+      " “Open now” only applies on OHC weekend (Oct 17–18) when the tab matches today — using day-open filter only.";
+  } else if (openNowOn) {
+    filterNote += " Also filtered to sites open right now (Chicago time).";
+  }
 
-  sites.sort((a, b) => haversineMi(position, a.coords) - haversineMi(position, b.coords));
+  if (!sites.length) {
+    el.innerHTML = `<p class="muted">${filterNote}</p><p class="muted">No sites match filters nearby. Try turning off “Open now” or including visited.</p>`;
+    if (mapWrap) mapWrap.classList.add("hidden");
+    return;
+  }
 
-  const mode = "walking";
   el.innerHTML =
-    '<p class="muted">Closest sites on this day (including backups). *Straight-line estimate at 15 min/mile; use Maps for real routes.</p>' +
-    sites
-      .slice(0, 8)
-      .map((s) => {
-        const d = haversineMi(position, s.coords);
-        const backup = s.priority === "backup" ? " · Backup" : "";
-        return `<div class="near-row"><div><strong>${esc(s.name)}</strong><div class="near-meta">~${d.toFixed(1)} mi · ~${Math.round(d * WALK_MIN_PER_MILE)} min pace${backup}</div></div><a class="action detail" target="_blank" rel="noopener" href="${mapsDir(s.address, mode)}">Navigate ↗</a></div>`;
-      })
-      .join("");
+    `<p class="muted">${filterNote}</p>` +
+    sites.map((s) => renderCard(directoryAsCard(s), { backup: true })).join("");
+
+  bindVisitChecks(el);
+
+  if (mapWrap) {
+    mapWrap.classList.remove("hidden");
+    renderNearbyMap(
+      "nearMap",
+      position,
+      sites.map((s) => ({
+        name: s.name,
+        coords: s.coords,
+        scheduled: false,
+      }))
+    );
+  }
 }
 
-function renderCard(s, backup = false) {
+function renderCard(s, opts = {}) {
+  const backup = opts.backup ?? false;
   if (s.type === "break") {
     return `<article class="stop break"><div class="time">${esc(s.time)} · ${esc(s.duration)}</div><div class="name">🍽️ ${esc(s.name)}</div><div class="desc">${esc(s.note)}</div></article>`;
   }
@@ -186,8 +288,13 @@ function renderCard(s, backup = false) {
         ? '<span class="badge">Backup</span>'
         : "";
 
+  const timeLine =
+    s.time && s.duration
+      ? `<span class="time">${esc(s.time)}</span> <span class="duration">· ${esc(s.duration)}</span>`
+      : "";
+
   return `<article class="stop ${optionalClass} ${doneClass} ${backupClass}">
-<div class="topline"><div><span class="time">${esc(s.time)}</span> <span class="duration">· ${esc(s.duration)}</span></div>
+<div class="topline"><div>${timeLine}</div>
 <label class="check"><input type="checkbox" ${checked} data-name="${esc(s.name)}" class="visit-check"> Visited</label></div>
 <div class="name">${esc(s.name)} ${badge}</div>
 <div class="address">${esc(s.address)}${distanceHtml(s)}</div>
@@ -219,8 +326,8 @@ function render() {
 
   const backups = DATA.backupByDay[day] || [];
   html +=
-    '<h2>Backup cards</h2><p class="hint">Same directions, site links, and visited controls as main stops. Swaps, not extra obligations.</p>' +
-    backups.map((x) => renderCard(x, true)).join("");
+    '<h2>Planned backup cards</h2><p class="hint">Hand-picked swaps for this day’s route. Nearby (above) pulls from the full OHC directory.</p>' +
+    backups.map((x) => renderCard(x, { backup: true })).join("");
 
   if (sat) {
     html +=
@@ -233,16 +340,39 @@ function render() {
 }
 
 async function init() {
-  const res = await fetch("./data/itinerary.json");
-  DATA = await res.json();
+  if (isDev) {
+    const banner = document.getElementById("devBanner");
+    if (banner) banner.classList.remove("hidden");
+  }
+
+  const [itinRes, dirRes] = await Promise.all([
+    fetch("./data/itinerary.json"),
+    fetch("./data/sites.json"),
+  ]);
+  DATA = await itinRes.json();
+  const dirPayload = await dirRes.json();
+  DIRECTORY = dirPayload.sites || [];
   if (!DATA.backupByDay) DATA.backupByDay = { sat: [], sun: [] };
 
   loadPrefs();
   document.getElementById("satTab").addEventListener("click", () => showDay("sat"));
   document.getElementById("sunTab").addEventListener("click", () => showDay("sun"));
   document.getElementById("nearbyBtn").addEventListener("click", getNearby);
-  document.getElementById("includeVisited").addEventListener("change", (e) => {
-    lsSet("includeVisited", e.target.checked ? "1" : "0");
+
+  const onFilterChange = (key, el) => {
+    el.addEventListener("change", () => {
+      lsSet(key, el.checked ? "1" : "0");
+      if (key === "onlyOpenDay") lsSet("onlyOpenDay", el.checked ? "1" : "0");
+      renderNearby();
+    });
+  };
+  onFilterChange("includeVisited", document.getElementById("includeVisited"));
+  document.getElementById("onlyOpenDay").addEventListener("change", (e) => {
+    lsSet("onlyOpenDay", e.target.checked ? "1" : "0");
+    renderNearby();
+  });
+  document.getElementById("openNow").addEventListener("change", (e) => {
+    lsSet("openNow", e.target.checked ? "1" : "0");
     renderNearby();
   });
 

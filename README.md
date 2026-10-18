@@ -4,23 +4,32 @@ Weekend itinerary for Open House Chicago (Oct 17–18, 2026): Saturday downtown 
 
 **Live:** [https://0xbn.github.io/chicago/](https://0xbn.github.io/chicago/)
 
-## Local
+## Local (dev)
 
-Static files only — open `index.html` via a local server (fetch needs HTTP):
+ES modules + `fetch` need HTTP:
 
 ```bash
-python -m http.server 8765
+npm run dev
 ```
 
-Then visit `http://localhost:8765/`.
+Open `http://localhost:8765/` (dev banner + map). Regenerate the site directory:
+
+```bash
+npm run build:sites
+```
+
+**Branch:** active work on `dev`; `main` is what GitHub Pages serves until you merge.
 
 ## Data
 
-- `data/itinerary.json` — stops, per-day backup cards, coords, OHC site URLs.
+- `data/itinerary.json` — your scheduled route + hand-picked backup cards.
+- `data/sites.json` — full OHC directory (~200 sites, from `/api/sites`) for **nearby** suggestions.
 - **localStorage** (this browser only):
   - `ohc26:<site name>` — visited (`1` / `0`)
   - `ohc26:day` — last tab (`sat` / `sun`)
   - `ohc26:theme` — `system` (default) | `light` | `dark`
+  - `ohc26:onlyOpenDay` — nearby respects Sat/Sun hours (`0` = off)
+  - `ohc26:openNow` — nearby also requires open-now on OHC weekend
   - `ohc26:includeVisited` — nearby list includes visited sites when `1`
 - Geolocation is not persisted; only used in-memory for distance + nearby ranking.
 

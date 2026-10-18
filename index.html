@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div id="devBanner" class="dev-banner hidden" role="status">
+      Dev build — run <code>npm run dev</code>. Nearby uses full OHC directory (
+      <code>data/sites.json</code>).
+    </div>
     <main>
       <header>
         <div class="header-row">
@@ -46,18 +50,32 @@
       </div>
 
       <section class="near-panel">
-        <strong>📍 What’s closest to me?</strong>
+        <strong>📍 Nearby from the full OHC list</strong>
         <p class="muted">
-          Uses your phone’s location to rank sites by approximate straight-line distance.
-          No API key or backend.
+          Sites from the official directory near you that are <b>not</b> on today’s schedule —
+          shown as backup cards (description, hours, Maps, visited). Straight-line distance;
+          no API key.
         </p>
         <button type="button" class="loc-button" id="nearbyBtn">
-          Find nearby sites
+          Use my location
         </button>
-        <label class="check near-options">
-          <input type="checkbox" id="includeVisited" />
-          Include already-visited sites
-        </label>
+        <div class="near-filters">
+          <label class="check">
+            <input type="checkbox" id="onlyOpenDay" checked />
+            Open on this day (Sat/Sun tab)
+          </label>
+          <label class="check">
+            <input type="checkbox" id="openNow" />
+            Open right now (Oct 17–18, Chicago time)
+          </label>
+          <label class="check">
+            <input type="checkbox" id="includeVisited" />
+            Include visited
+          </label>
+        </div>
+        <div id="nearMapWrap" class="near-map-wrap hidden">
+          <div id="nearMap" class="near-map" aria-label="Map of nearby sites"></div>
+        </div>
         <div id="nearResults" aria-live="polite"></div>
       </section>
 
