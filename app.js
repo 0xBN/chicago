@@ -1,4 +1,8 @@
-import { isOpenForNearby, tabMatchesChicagoToday } from "./js/hours.js";
+import {
+  closedNowLabel,
+  isOpenForNearby,
+  tabMatchesChicagoToday,
+} from "./js/hours.js";
 import { renderNearbyMap } from "./js/map.js";
 
 const STORAGE_PREFIX = "ohc26:";
@@ -173,6 +177,7 @@ function nearbyCandidates() {
 
 function directoryAsCard(site) {
   const d = position ? haversineMi(position, site.coords) : null;
+  const closed = closedNowLabel(site, day);
   return {
     name: site.name,
     address: site.address,
@@ -181,6 +186,7 @@ function directoryAsCard(site) {
     url: site.url,
     coords: site.coords,
     priority: "backup",
+    closedNow: closed,
     time: d != null ? `~${d.toFixed(1)} mi away` : "Nearby",
     duration: d != null ? `~${Math.round(d * WALK_MIN_PER_MILE)} min walk*` : "",
   };
@@ -230,7 +236,10 @@ function renderNearby() {
   }
 
   if (!sites.length) {
-    el.innerHTML = `<p class="muted">${filterNote}</p><p class="muted">No sites match filters nearby. Try turning off “Open now” or including visited.</p>`;
+    const hint = openNowOn
+      ? "Nothing open right now for this day — most OHC sites close by 5–6pm. Turn off “Open now” to browse nearby closed sites."
+      : "No sites match filters nearby. Try including visited.";
+    el.innerHTML = `<p class="muted">${filterNote}</p><p class="muted">${hint}</p>`;
     if (mapWrap) mapWrap.classList.add("hidden");
     return;
   }
@@ -272,6 +281,9 @@ function renderCard(s, opts = {}) {
       : s.priority === "backup"
         ? '<span class="badge">Backup</span>'
         : "";
+  const closedBadge = s.closedNow
+    ? `<span class="badge badge-closed">${esc(s.closedNow)}</span>`
+    : "";
 
   const timeLine =
     s.time && s.duration
@@ -281,7 +293,7 @@ function renderCard(s, opts = {}) {
   return `<article class="stop ${optionalClass} ${doneClass} ${backupClass}">
 <div class="topline"><div>${timeLine}</div>
 <label class="check"><input type="checkbox" ${checked} data-name="${esc(s.name)}" class="visit-check"> Visited</label></div>
-<div class="name">${esc(s.name)} ${badge}</div>
+<div class="name">${esc(s.name)} ${badge} ${closedBadge}</div>
 <div class="address">${esc(s.address)}${distanceHtml(s)}</div>
 <p class="desc">${esc(s.note)}</p>
 <div class="actions"><a class="action map" target="_blank" rel="noopener" href="${mapsDir(s.address, mode)}">↗ Directions from here</a>

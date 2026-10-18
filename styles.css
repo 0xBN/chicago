@@ -402,6 +402,11 @@ h2 {
   background: var(--optional-bar);
 }
 
+.badge-closed {
+  background: #6b7f94;
+  color: var(--text);
+}
+
 .hours {
   color: var(--hours);
   font-size: 12px;

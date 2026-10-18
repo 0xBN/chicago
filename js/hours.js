@@ -1,16 +1,20 @@
 /** @typedef {{ satHours?: string, sunHours?: string, hours?: string }} HoursFields */
 
 const CHICAGO = "America/Chicago";
-const OHC_SAT = new Date("2026-10-17T00:00:00-05:00");
-const OHC_SUN = new Date("2026-10-18T00:00:00-05:00");
 
 /**
- * @param {string} raw e.g. "10am", "10:30am", "5pm"
+ * @param {string} raw e.g. "10am", "10:30am", "5pm", "12" (with inferred am/pm)
+ * @param {"am"|"pm"|null} [inferPeriod]
  * @returns {number|null} minutes from midnight
  */
-export function parseTime12(raw) {
-  const s = String(raw || "").trim().toLowerCase();
-  const m = s.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)$/);
+export function parseTime12(raw, inferPeriod = null) {
+  let s = String(raw || "").trim().toLowerCase();
+  let m = s.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)$/);
+  if (!m && inferPeriod) {
+    m = s.match(/^(\d{1,2})(?::(\d{2}))?$/);
+    if (m) s = `${m[1]}${m[2] ? ":" + m[2] : ""}${inferPeriod}`;
+    m = s.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)$/);
+  }
   if (!m) return null;
   let h = parseInt(m[1], 10);
   const min = m[2] ? parseInt(m[2], 10) : 0;
@@ -21,16 +25,22 @@ export function parseTime12(raw) {
 }
 
 /**
- * @param {string} range e.g. "10am-5pm"
+ * @param {string} range e.g. "10am-5pm", "12-5pm", "12:30-4:30pm"
  * @returns {{ start: number, end: number } | null}
  */
 export function parseHourRange(range) {
   const s = String(range || "").trim();
-  if (!s || /closed/i.test(s)) return null;
+  if (!s || /^closed$/i.test(s)) return null;
   const parts = s.split(/\s*[-–]\s*/);
   if (parts.length !== 2) return null;
-  const start = parseTime12(parts[0]);
-  const end = parseTime12(parts[1]);
+  let startStr = parts[0].trim();
+  const endStr = parts[1].trim();
+  const endAp = endStr.match(/(am|pm)$/i)?.[1]?.toLowerCase();
+  if (endAp && !/(am|pm)$/i.test(startStr)) {
+    startStr = `${startStr}${endAp}`;
+  }
+  const start = parseTime12(startStr);
+  const end = parseTime12(endStr);
   if (start == null || end == null) return null;
   return { start, end };
 }
@@ -56,10 +66,13 @@ export function chicagoNowMinutes(when = new Date()) {
     timeZone: CHICAGO,
     hour: "numeric",
     minute: "numeric",
-    hour12: false,
+    hour12: true,
   }).formatToParts(when);
-  const hour = parseInt(parts.find((p) => p.type === "hour")?.value || "0", 10);
+  let hour = parseInt(parts.find((p) => p.type === "hour")?.value || "0", 10);
   const minute = parseInt(parts.find((p) => p.type === "minute")?.value || "0", 10);
+  const ap = parts.find((p) => p.type === "dayPeriod")?.value?.toLowerCase();
+  if (ap === "pm" && hour !== 12) hour += 12;
+  if (ap === "am" && hour === 12) hour = 0;
   return hour * 60 + minute;
 }
 
@@ -73,24 +86,6 @@ export function chicagoYmd(when = new Date()) {
   }).format(when);
 }
 
-/**
- * True if site hours for tabDay include `when` (Chicago).
- * Only meaningful when calendar day matches OHC weekend or tab aligns with today.
- */
-export function isOpenNow(site, tabDay, when = new Date()) {
-  const ymd = chicagoYmd(when);
-  const onOhc =
-    (ymd === "2026-10-17" && tabDay === "sat") ||
-    (ymd === "2026-10-18" && tabDay === "sun");
-  if (!onOhc) return true;
-
-  const rangeStr = hoursForTab(site, tabDay);
-  const range = parseHourRange(rangeStr);
-  if (!range) return false;
-  const now = chicagoNowMinutes(when);
-  return now >= range.start && now <= range.end;
-}
-
 export function tabMatchesChicagoToday(tabDay, when = new Date()) {
   const ymd = chicagoYmd(when);
   if (ymd === "2026-10-17") return tabDay === "sat";
@@ -99,14 +94,40 @@ export function tabMatchesChicagoToday(tabDay, when = new Date()) {
 }
 
 /**
- * Single “open now” rule: must run on selected tab day; on matching OHC calendar
- * day also require current Chicago time within hours.
+ * @param {HoursFields} site
+ * @param {"sat"|"sun"} tabDay
+ * @param {Date} [when]
+ */
+export function isOpenNow(site, tabDay, when = new Date()) {
+  if (!tabMatchesChicagoToday(tabDay, when)) return null;
+
+  const rangeStr = hoursForTab(site, tabDay);
+  if (!rangeStr || /^closed$/i.test(rangeStr)) return false;
+  const range = parseHourRange(rangeStr);
+  if (!range) return null;
+  const now = chicagoNowMinutes(when);
+  return now >= range.start && now <= range.end;
+}
+
+/**
+ * Open now: hours on selected tab; on OHC weekend matching today, must be inside hours.
  * @param {HoursFields} site
  * @param {"sat"|"sun"} tabDay
  * @param {Date} [when]
  */
 export function isOpenForNearby(site, tabDay, when = new Date()) {
   if (!isOpenOnTabDay(site, tabDay)) return false;
-  if (tabMatchesChicagoToday(tabDay, when)) return isOpenNow(site, tabDay, when);
-  return true;
+  const open = isOpenNow(site, tabDay, when);
+  if (open === null) return true;
+  return open;
+}
+
+/** @param {HoursFields} site @param {"sat"|"sun"} tabDay @param {Date} [when] */
+export function closedNowLabel(site, tabDay, when = new Date()) {
+  const open = isOpenNow(site, tabDay, when);
+  if (open === null) return "";
+  if (open) return "";
+  const range = parseHourRange(hoursForTab(site, tabDay));
+  if (!range) return "Hours unclear";
+  return "Closed now";
 }
