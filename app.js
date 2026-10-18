@@ -1,7 +1,8 @@
 import {
+  chicagoTimeLabel,
   closedNowLabel,
   isOpenForNearby,
-  tabMatchesChicagoToday,
+  ohcCalendarDay,
 } from "./js/hours.js";
 import { renderNearbyMap } from "./js/map.js";
 
@@ -225,14 +226,16 @@ function renderNearby() {
 
   const sites = nearbyCandidates();
   const openNowOn = document.getElementById("openNow")?.checked;
-  const onOhcDay = tabMatchesChicagoToday(day);
+  const cal = ohcCalendarDay();
   let filterNote =
-    "Other Open House sites near you (not on today’s schedule). Full cards — same as backups below.";
+    "Other Open House sites near you (not on this tab’s schedule). Full cards — same as backups below.";
+  filterNote += ` Chicago now: ${chicagoTimeLabel()}.`;
   if (openNowOn) {
-    filterNote += ` Open now: ${day === "sat" ? "Saturday" : "Sunday"} hours`;
-    filterNote += onOhcDay
-      ? " and current Chicago time."
-      : " (time check applies Oct 17–18 when this tab matches today).";
+    if (cal) {
+      filterNote += ` Open now uses ${cal === "sat" ? "Saturday" : "Sunday"} hours for that clock (not the Sat/Sun tab).`;
+    } else {
+      filterNote += ` Open now: sites with hours on the ${day === "sat" ? "Saturday" : "Sunday"} tab (no live time — not OHC weekend).`;
+    }
   }
 
   if (!sites.length) {

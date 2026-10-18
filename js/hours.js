@@ -4,17 +4,11 @@ const CHICAGO = "America/Chicago";
 
 /**
  * @param {string} raw e.g. "10am", "10:30am", "5pm", "12" (with inferred am/pm)
- * @param {"am"|"pm"|null} [inferPeriod]
  * @returns {number|null} minutes from midnight
  */
-export function parseTime12(raw, inferPeriod = null) {
+export function parseTime12(raw) {
   let s = String(raw || "").trim().toLowerCase();
   let m = s.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)$/);
-  if (!m && inferPeriod) {
-    m = s.match(/^(\d{1,2})(?::(\d{2}))?$/);
-    if (m) s = `${m[1]}${m[2] ? ":" + m[2] : ""}${inferPeriod}`;
-    m = s.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)$/);
-  }
   if (!m) return null;
   let h = parseInt(m[1], 10);
   const min = m[2] ? parseInt(m[2], 10) : 0;
@@ -86,48 +80,69 @@ export function chicagoYmd(when = new Date()) {
   }).format(when);
 }
 
-export function tabMatchesChicagoToday(tabDay, when = new Date()) {
+/** Real OHC weekend day in Chicago, not the itinerary tab. */
+export function ohcCalendarDay(when = new Date()) {
   const ymd = chicagoYmd(when);
-  if (ymd === "2026-10-17") return tabDay === "sat";
-  if (ymd === "2026-10-18") return tabDay === "sun";
-  return false;
+  if (ymd === "2026-10-17") return "sat";
+  if (ymd === "2026-10-18") return "sun";
+  return null;
+}
+
+export function chicagoTimeLabel(when = new Date()) {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: CHICAGO,
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    timeZoneName: "short",
+  }).format(when);
+}
+
+export function tabMatchesChicagoToday(tabDay, when = new Date()) {
+  const cal = ohcCalendarDay(when);
+  return cal !== null && cal === tabDay;
 }
 
 /**
  * @param {HoursFields} site
- * @param {"sat"|"sun"} tabDay
+ * @param {"sat"|"sun"} hoursDay
  * @param {Date} [when]
  */
-export function isOpenNow(site, tabDay, when = new Date()) {
-  if (!tabMatchesChicagoToday(tabDay, when)) return null;
-
-  const rangeStr = hoursForTab(site, tabDay);
+export function isWithinHoursNow(site, hoursDay, when = new Date()) {
+  const rangeStr = hoursForTab(site, hoursDay);
   if (!rangeStr || /^closed$/i.test(rangeStr)) return false;
   const range = parseHourRange(rangeStr);
-  if (!range) return null;
+  if (!range) return false;
   const now = chicagoNowMinutes(when);
   return now >= range.start && now <= range.end;
 }
 
 /**
- * Open now: hours on selected tab; on OHC weekend matching today, must be inside hours.
+ * Open now uses **Chicago clock + calendar day** on OHC weekend (not the Sat/Sun tab).
+ * Off-weekend: uses itinerary tab for “open that day” only (no time).
  * @param {HoursFields} site
- * @param {"sat"|"sun"} tabDay
+ * @param {"sat"|"sun"} itineraryTab
  * @param {Date} [when]
  */
-export function isOpenForNearby(site, tabDay, when = new Date()) {
-  if (!isOpenOnTabDay(site, tabDay)) return false;
-  const open = isOpenNow(site, tabDay, when);
-  if (open === null) return true;
-  return open;
+export function isOpenForNearby(site, itineraryTab, when = new Date()) {
+  const cal = ohcCalendarDay(when);
+  if (cal) {
+    if (!isOpenOnTabDay(site, cal)) return false;
+    return isWithinHoursNow(site, cal, when);
+  }
+  return isOpenOnTabDay(site, itineraryTab);
 }
 
-/** @param {HoursFields} site @param {"sat"|"sun"} tabDay @param {Date} [when] */
-export function closedNowLabel(site, tabDay, when = new Date()) {
-  const open = isOpenNow(site, tabDay, when);
-  if (open === null) return "";
-  if (open) return "";
-  const range = parseHourRange(hoursForTab(site, tabDay));
+/** @param {HoursFields} site @param {"sat"|"sun"} itineraryTab @param {Date} [when] */
+export function closedNowLabel(site, itineraryTab, when = new Date()) {
+  const cal = ohcCalendarDay(when);
+  const hoursDay = cal ?? itineraryTab;
+  if (!isOpenOnTabDay(site, hoursDay)) return "Closed today";
+  if (!cal) return "";
+  if (isWithinHoursNow(site, hoursDay, when)) return "";
+  const range = parseHourRange(hoursForTab(site, hoursDay));
   if (!range) return "Hours unclear";
   return "Closed now";
 }
