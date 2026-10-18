@@ -97,3 +97,16 @@ export function tabMatchesChicagoToday(tabDay, when = new Date()) {
   if (ymd === "2026-10-18") return tabDay === "sun";
   return false;
 }
+
+/**
+ * Single “open now” rule: must run on selected tab day; on matching OHC calendar
+ * day also require current Chicago time within hours.
+ * @param {HoursFields} site
+ * @param {"sat"|"sun"} tabDay
+ * @param {Date} [when]
+ */
+export function isOpenForNearby(site, tabDay, when = new Date()) {
+  if (!isOpenOnTabDay(site, tabDay)) return false;
+  if (tabMatchesChicagoToday(tabDay, when)) return isOpenNow(site, tabDay, when);
+  return true;
+}

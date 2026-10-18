@@ -28,8 +28,7 @@ npm run build:sites
   - `ohc26:<site name>` — visited (`1` / `0`)
   - `ohc26:day` — last tab (`sat` / `sun`)
   - `ohc26:theme` — `system` (default) | `light` | `dark`
-  - `ohc26:onlyOpenDay` — nearby respects Sat/Sun hours (`0` = off)
-  - `ohc26:openNow` — nearby also requires open-now on OHC weekend
+  - `ohc26:openNow` — nearby: Sat/Sun tab hours + current time on OHC weekend (`0` = off)
   - `ohc26:includeVisited` — nearby list includes visited sites when `1`
 - Geolocation is not persisted; only used in-memory for distance + nearby ranking.
 

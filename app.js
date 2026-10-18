@@ -1,8 +1,4 @@
-import {
-  isOpenNow,
-  isOpenOnTabDay,
-  tabMatchesChicagoToday,
-} from "./js/hours.js";
+import { isOpenForNearby, tabMatchesChicagoToday } from "./js/hours.js";
 import { renderNearbyMap } from "./js/map.js";
 
 const STORAGE_PREFIX = "ohc26:";
@@ -44,11 +40,9 @@ function loadPrefs() {
   applyTheme(lsGet("theme") || "system");
 
   const inc = document.getElementById("includeVisited");
-  const openDay = document.getElementById("onlyOpenDay");
   const now = document.getElementById("openNow");
   if (inc) inc.checked = lsGet("includeVisited") === "1";
-  if (openDay) openDay.checked = lsGet("onlyOpenDay") !== "0";
-  if (now) now.checked = lsGet("openNow") === "1";
+  if (now) now.checked = lsGet("openNow") !== "0";
 }
 
 function applyTheme(mode) {
@@ -161,18 +155,12 @@ function distanceHtml(stop) {
 }
 
 function nearbyCandidates() {
-  const onlyOpenDay = document.getElementById("onlyOpenDay")?.checked;
   const openNow = document.getElementById("openNow")?.checked;
   const includeVisited = document.getElementById("includeVisited")?.checked;
 
   let sites = DIRECTORY.filter((s) => !isScheduledDirectorySite(s));
 
-  if (onlyOpenDay) sites = sites.filter((s) => isOpenOnTabDay(s, day));
-  if (openNow) {
-    if (tabMatchesChicagoToday(day)) {
-      sites = sites.filter((s) => isOpenNow(s, day));
-    }
-  }
+  if (openNow) sites = sites.filter((s) => isOpenForNearby(s, day));
   if (!includeVisited) sites = sites.filter((s) => !isDone(s));
 
   if (position) {
@@ -234,14 +222,11 @@ function renderNearby() {
   const onOhcDay = tabMatchesChicagoToday(day);
   let filterNote =
     "Other Open House sites near you (not on today’s schedule). Full cards — same as backups below.";
-  if (document.getElementById("onlyOpenDay")?.checked) {
-    filterNote += ` Showing sites open ${day === "sat" ? "Saturday" : "Sunday"}.`;
-  }
-  if (openNowOn && !onOhcDay) {
-    filterNote +=
-      " “Open now” only applies on OHC weekend (Oct 17–18) when the tab matches today — using day-open filter only.";
-  } else if (openNowOn) {
-    filterNote += " Also filtered to sites open right now (Chicago time).";
+  if (openNowOn) {
+    filterNote += ` Open now: ${day === "sat" ? "Saturday" : "Sunday"} hours`;
+    filterNote += onOhcDay
+      ? " and current Chicago time."
+      : " (time check applies Oct 17–18 when this tab matches today).";
   }
 
   if (!sites.length) {
@@ -361,10 +346,6 @@ async function init() {
 
   document.getElementById("includeVisited").addEventListener("change", (e) => {
     lsSet("includeVisited", e.target.checked ? "1" : "0");
-    renderNearby();
-  });
-  document.getElementById("onlyOpenDay").addEventListener("change", (e) => {
-    lsSet("onlyOpenDay", e.target.checked ? "1" : "0");
     renderNearby();
   });
   document.getElementById("openNow").addEventListener("change", (e) => {
