@@ -359,14 +359,10 @@ async function init() {
   document.getElementById("sunTab").addEventListener("click", () => showDay("sun"));
   document.getElementById("nearbyBtn").addEventListener("click", getNearby);
 
-  const onFilterChange = (key, el) => {
-    el.addEventListener("change", () => {
-      lsSet(key, el.checked ? "1" : "0");
-      if (key === "onlyOpenDay") lsSet("onlyOpenDay", el.checked ? "1" : "0");
-      renderNearby();
-    });
-  };
-  onFilterChange("includeVisited", document.getElementById("includeVisited"));
+  document.getElementById("includeVisited").addEventListener("change", (e) => {
+    lsSet("includeVisited", e.target.checked ? "1" : "0");
+    renderNearby();
+  });
   document.getElementById("onlyOpenDay").addEventListener("change", (e) => {
     lsSet("onlyOpenDay", e.target.checked ? "1" : "0");
     renderNearby();
